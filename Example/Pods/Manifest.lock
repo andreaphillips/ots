@@ -1,0 +1,14 @@
+PODS:
+  - Spotlight (0.1.0)
+
+DEPENDENCIES:
+  - Spotlight (from `../`)
+
+EXTERNAL SOURCES:
+  Spotlight:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Spotlight: 0334632183d30dca1b628dee829d3bda90539e9a
+
+COCOAPODS: 0.39.0
