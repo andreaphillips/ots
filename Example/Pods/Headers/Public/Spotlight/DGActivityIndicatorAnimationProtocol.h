@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/DGActivityIndicatorView/DGActivityIndicatorAnimationProtocol.h

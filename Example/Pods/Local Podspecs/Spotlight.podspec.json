@@ -1,16 +1,15 @@
 {
   "name": "Spotlight",
-  "version": "0.1.0",
-  "summary": "A short description of Spotlight.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Spotlight",
+  "version": "1.0.0",
+  "summary": "Opentok plugin for spotlight",
+  "description": "Plugin to be used for spotlight on ios",
+  "homepage": "https://github.com/andreaphillips/ots",
   "license": "MIT",
   "authors": {
     "andreaphillips": "andrea@agilityfeat.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Spotlight.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/andreaphillips/ots.git"
   },
   "platforms": {
     "ios": "7.0"
@@ -18,8 +17,16 @@
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
-    "Spotlight": [
-      "Pod/Assets/*.png"
+    "Bundle": [
+      "Pod/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "OpenTok": [
+
+    ],
+    "SIOSocket": [
+      "~> 0.2.0"
     ]
   }
 }

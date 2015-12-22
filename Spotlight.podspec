@@ -11,12 +11,12 @@ s.source           = { :git => "https://github.com/andreaphillips/ots.git" }
 
 s.platform     = :ios, '7.0'
 s.requires_arc = true
-
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
-'OpenTokSpotlight' => ['Pod/Assets/*.png']
+'Bundle' => ['Pod/Assets/**/*']
 }
+
 s.dependency 'OpenTok'
-s.dependency 'SocketIO'
+s.dependency 'SIOSocket', '~> 0.2.0'
 
 end

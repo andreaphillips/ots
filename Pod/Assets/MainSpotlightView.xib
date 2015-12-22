@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9060"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainSpotlightControllerViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="BAZ-6Q-WQH">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0w-DU-mNv">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.94434022630000003" green="0.49805257466155389" blue="0.16432414557617001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="o0w-DU-mNv" secondAttribute="centerX" constant="-40" id="0zS-Zd-Nlv"/>
+                <constraint firstItem="o0w-DU-mNv" firstAttribute="leading" secondItem="BAZ-6Q-WQH" secondAttribute="leading" id="Uqh-34-Lw5"/>
+                <constraint firstAttribute="trailing" secondItem="o0w-DU-mNv" secondAttribute="trailing" id="d0D-UA-A8h"/>
+                <constraint firstItem="o0w-DU-mNv" firstAttribute="top" secondItem="BAZ-6Q-WQH" secondAttribute="top" id="fx3-oZ-1Su"/>
+                <constraint firstAttribute="bottom" secondItem="o0w-DU-mNv" secondAttribute="bottom" id="gKy-g6-Jz6"/>
+                <constraint firstItem="o0w-DU-mNv" firstAttribute="top" secondItem="BAZ-6Q-WQH" secondAttribute="top" id="iZh-YG-kWS"/>
+                <constraint firstAttribute="centerY" secondItem="o0w-DU-mNv" secondAttribute="centerY" constant="-146" id="uJf-uD-Arm"/>
+                <constraint firstAttribute="trailing" secondItem="o0w-DU-mNv" secondAttribute="trailing" id="ySg-zJ-54L"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="d0D-UA-A8h"/>
+                    <exclude reference="0zS-Zd-Nlv"/>
+                    <exclude reference="uJf-uD-Arm"/>
+                    <exclude reference="iZh-YG-kWS"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="375" y="319"/>
+        </view>
+    </objects>
+</document>

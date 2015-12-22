@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/OTKTextChat/OTKTextChatLibrary/OTKTextChatView.h

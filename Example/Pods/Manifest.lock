@@ -1,5 +1,9 @@
 PODS:
-  - Spotlight (0.1.0)
+  - OpenTok (2.7.0)
+  - SIOSocket (0.2.0)
+  - Spotlight (1.0.0):
+    - OpenTok
+    - SIOSocket (~> 0.2.0)
 
 DEPENDENCIES:
   - Spotlight (from `../`)
@@ -9,6 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Spotlight: 0334632183d30dca1b628dee829d3bda90539e9a
+  OpenTok: 56dbc82766bd925d7b19c4b4468534014eace65d
+  SIOSocket: 2facc0bd02ae72d98c223634a46dd8ebdf9be321
+  Spotlight: c4bbec9f9dafddf6baa8bd324ddc25201a7db85e
 
 COCOAPODS: 0.39.0
