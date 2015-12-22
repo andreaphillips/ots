@@ -48,8 +48,9 @@ typedef enum : NSUInteger {
         _messages = [[NSMutableArray alloc] init];
         maxLength = DEFAULT_MAX_LENGTH;
         
-        NSBundle *bundle =[NSBundle bundleWithPath:[NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] bundlePath], @"OTKTextChatBundle.bundle"]];
-
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Bundle" ofType:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        
         UINib *viewNIB = [UINib nibWithNibName:@"OTKTextChatComponent" bundle:bundle];
         [viewNIB instantiateWithOwner:self options:nil];
         

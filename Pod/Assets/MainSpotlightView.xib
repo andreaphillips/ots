@@ -14,7 +14,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0w-DU-mNv">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <animations/>
-                    <color key="backgroundColor" red="0.94434022630000003" green="0.49805257466155389" blue="0.16432414557617001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.8115671834" green="0.8115671834" blue="0.8115671834" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
             </subviews>
             <animations/>

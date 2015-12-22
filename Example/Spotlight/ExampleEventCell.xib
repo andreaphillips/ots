@@ -18,14 +18,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VWH-ju-BFj">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="AwH-oD-6Tj">
             <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSy-Of-7kQ">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4j-23-xLV">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                         <animations/>
                         <color key="backgroundColor" red="0.94434022630000003" green="0.94434022630000003" blue="0.94434022630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -39,24 +39,24 @@
                             <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2.0f"/>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tittle Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jB-Zh-nLU">
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tittle Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADL-8S-8q5">
                         <rect key="frame" x="10" y="8" width="181" height="20"/>
                         <animations/>
                         <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
                         <color key="textColor" red="0.2784313725" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqz-B4-43S">
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7Z-d5-UU9">
                         <rect key="frame" x="14" y="28" width="173" height="18"/>
                         <animations/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                         <color key="textColor" red="0.2784313725" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view tag="102" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRA-9T-zj1">
+                    <view tag="102" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVf-Vb-SAq">
                         <rect key="frame" x="0.0" y="50" width="200" height="100"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" tag="104" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-graphic.png" translatesAutoresizingMaskIntoConstraints="NO" id="dFa-zw-LUK">
+                            <imageView userInteractionEnabled="NO" tag="104" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackImg" translatesAutoresizingMaskIntoConstraints="NO" id="s2f-B2-5Sg">
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.8115671834" green="0.8115671834" blue="0.8115671834" alpha="1" colorSpace="calibratedRGB"/>
@@ -65,16 +65,16 @@
                         <animations/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dFa-zw-LUK" firstAttribute="centerX" secondItem="eRA-9T-zj1" secondAttribute="centerX" id="BPp-6W-uje"/>
-                            <constraint firstItem="dFa-zw-LUK" firstAttribute="height" secondItem="eRA-9T-zj1" secondAttribute="height" id="Zi4-b8-8v8"/>
-                            <constraint firstItem="dFa-zw-LUK" firstAttribute="centerY" secondItem="eRA-9T-zj1" secondAttribute="centerY" id="dxg-Zi-6kh"/>
-                            <constraint firstItem="dFa-zw-LUK" firstAttribute="width" secondItem="eRA-9T-zj1" secondAttribute="width" id="nc7-8d-gLf"/>
+                            <constraint firstItem="s2f-B2-5Sg" firstAttribute="centerY" secondItem="TVf-Vb-SAq" secondAttribute="centerY" id="83P-0L-fEn"/>
+                            <constraint firstItem="s2f-B2-5Sg" firstAttribute="height" secondItem="TVf-Vb-SAq" secondAttribute="height" id="PG3-ky-4qt"/>
+                            <constraint firstItem="s2f-B2-5Sg" firstAttribute="width" secondItem="TVf-Vb-SAq" secondAttribute="width" id="kNn-XH-QTI"/>
+                            <constraint firstItem="s2f-B2-5Sg" firstAttribute="centerX" secondItem="TVf-Vb-SAq" secondAttribute="centerX" id="kdA-Ko-01s"/>
                         </constraints>
                     </view>
-                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xh1-AK-D4S" customClass="dataButton">
+                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-Od-Hmb" customClass="dataButton">
                         <rect key="frame" x="5" y="155" width="190" height="40"/>
                         <animations/>
-                        <color key="backgroundColor" red="0.17230555249999999" green="0.6463330182" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.19215686269999999" green="0.59999999999999998" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                         <state key="normal" title="Join Event"/>
                         <userDefinedRuntimeAttributes>
@@ -90,37 +90,37 @@
             <animations/>
             <color key="backgroundColor" red="0.96897396650000001" green="1" blue="0.96630337870000005" alpha="0.0" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="2jB-Zh-nLU" firstAttribute="leading" secondItem="dFa-zw-LUK" secondAttribute="leading" constant="10" id="1aO-f5-0hB"/>
-                <constraint firstItem="qSy-Of-7kQ" firstAttribute="top" secondItem="VWH-ju-BFj" secondAttribute="top" id="1vO-Ns-cYk"/>
-                <constraint firstAttribute="bottom" secondItem="xh1-AK-D4S" secondAttribute="bottom" constant="5" id="5eX-D9-Iwu"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="top" secondItem="Nqz-B4-43S" secondAttribute="bottom" constant="4" id="B5M-gI-ZHq"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="top" secondItem="2jB-Zh-nLU" secondAttribute="bottom" constant="22" id="KyU-5W-5F5"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="height" secondItem="qSy-Of-7kQ" secondAttribute="height" multiplier="1:2" id="LeA-Ty-xux"/>
-                <constraint firstAttribute="trailing" secondItem="xh1-AK-D4S" secondAttribute="trailing" constant="5" id="MqY-iG-eGB"/>
-                <constraint firstItem="Nqz-B4-43S" firstAttribute="leading" secondItem="2jB-Zh-nLU" secondAttribute="leading" constant="4" id="OGT-CU-yNr"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="centerX" secondItem="Nqz-B4-43S" secondAttribute="centerX" id="SOn-3O-CJR"/>
-                <constraint firstItem="2jB-Zh-nLU" firstAttribute="trailing" secondItem="xh1-AK-D4S" secondAttribute="trailing" id="UqB-2W-85o"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="centerY" secondItem="qSy-Of-7kQ" secondAttribute="centerY" id="Vym-fQ-w3Q"/>
-                <constraint firstAttribute="trailing" secondItem="qSy-Of-7kQ" secondAttribute="trailing" id="WCT-bW-vo3"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="leading" secondItem="VWH-ju-BFj" secondAttribute="leading" id="XfM-r1-e7w"/>
-                <constraint firstItem="2jB-Zh-nLU" firstAttribute="top" secondItem="VWH-ju-BFj" secondAttribute="topMargin" id="a3G-II-4BI"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="leading" secondItem="qSy-Of-7kQ" secondAttribute="leading" id="bxw-qZ-prB"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="centerX" secondItem="2jB-Zh-nLU" secondAttribute="centerX" id="ovd-8o-xm0"/>
-                <constraint firstItem="xh1-AK-D4S" firstAttribute="leading" secondItem="VWH-ju-BFj" secondAttribute="leading" constant="5" id="qr2-RD-zwy"/>
-                <constraint firstAttribute="bottom" secondItem="qSy-Of-7kQ" secondAttribute="bottom" id="rbe-kD-kjq"/>
-                <constraint firstItem="xh1-AK-D4S" firstAttribute="top" secondItem="eRA-9T-zj1" secondAttribute="bottom" constant="5" id="wcd-Nf-KKc"/>
-                <constraint firstItem="eRA-9T-zj1" firstAttribute="width" secondItem="qSy-Of-7kQ" secondAttribute="width" id="yIl-nP-bYn"/>
+                <constraint firstItem="O7Z-d5-UU9" firstAttribute="leading" secondItem="ADL-8S-8q5" secondAttribute="leading" constant="4" id="0wA-La-7e9"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="top" secondItem="ADL-8S-8q5" secondAttribute="bottom" constant="22" id="16p-Gp-J22"/>
+                <constraint firstItem="ADL-8S-8q5" firstAttribute="leading" secondItem="s2f-B2-5Sg" secondAttribute="leading" constant="10" id="1u3-gi-T1b"/>
+                <constraint firstAttribute="trailing" secondItem="z4j-23-xLV" secondAttribute="trailing" id="5Q9-36-KG0"/>
+                <constraint firstAttribute="trailing" secondItem="dnS-Od-Hmb" secondAttribute="trailing" constant="5" id="DL3-A8-0T3"/>
+                <constraint firstItem="z4j-23-xLV" firstAttribute="top" secondItem="AwH-oD-6Tj" secondAttribute="top" id="Kma-dL-35I"/>
+                <constraint firstItem="dnS-Od-Hmb" firstAttribute="leading" secondItem="AwH-oD-6Tj" secondAttribute="leading" constant="5" id="LjJ-qP-T8b"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="centerY" secondItem="z4j-23-xLV" secondAttribute="centerY" id="P4z-bW-SMd"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="height" secondItem="z4j-23-xLV" secondAttribute="height" multiplier="1:2" id="QsK-ym-xrL"/>
+                <constraint firstAttribute="bottom" secondItem="z4j-23-xLV" secondAttribute="bottom" id="W08-3q-MW1"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="leading" secondItem="AwH-oD-6Tj" secondAttribute="leading" id="Zvb-uZ-xI4"/>
+                <constraint firstItem="ADL-8S-8q5" firstAttribute="trailing" secondItem="dnS-Od-Hmb" secondAttribute="trailing" id="bqF-cg-34E"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="top" secondItem="O7Z-d5-UU9" secondAttribute="bottom" constant="4" id="dbD-2v-8Mr"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="width" secondItem="z4j-23-xLV" secondAttribute="width" id="flj-ro-Cda"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="centerX" secondItem="ADL-8S-8q5" secondAttribute="centerX" id="kVw-n7-A8a"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="centerX" secondItem="O7Z-d5-UU9" secondAttribute="centerX" id="kcq-5G-GeJ"/>
+                <constraint firstItem="ADL-8S-8q5" firstAttribute="top" secondItem="AwH-oD-6Tj" secondAttribute="topMargin" id="lHC-fK-2AU"/>
+                <constraint firstAttribute="bottom" secondItem="dnS-Od-Hmb" secondAttribute="bottom" constant="5" id="oWz-ER-UVZ"/>
+                <constraint firstItem="TVf-Vb-SAq" firstAttribute="leading" secondItem="z4j-23-xLV" secondAttribute="leading" id="toT-gS-o6p"/>
+                <constraint firstItem="dnS-Od-Hmb" firstAttribute="top" secondItem="TVf-Vb-SAq" secondAttribute="bottom" constant="5" id="ujR-5T-tnp"/>
             </constraints>
             <size key="customSize" width="200" height="200"/>
             <variation key="default">
                 <mask key="constraints">
-                    <exclude reference="UqB-2W-85o"/>
+                    <exclude reference="bqF-cg-34E"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="507" y="358"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="bg-graphic.png" width="890" height="230"/>
+        <image name="BackImg" width="445" height="115"/>
     </resources>
 </document>

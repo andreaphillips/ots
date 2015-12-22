@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <Spotlight/MainSpotlightControllerViewController.h>
+#import "MainSpotlightControllerViewController.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *SingleInstanceButton;
@@ -126,12 +126,12 @@
     if(![self.nameTextField.text isEqualToString:@"" ]){
         userOptions[@"name"] = self.nameTextField.text;
     }
-//    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Bundle" ofType:@"bundle"];
-//    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
-//    
-    self.spotlightController = [[MainSpotlightControllerViewController alloc] initWithData:self.instance_id user:userOptions];
-//    self.spotlightController.instance_id = self.instance_id;
-//    self.spotlightController.user = userOptions;
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Bundle" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    
+    self.spotlightController = [[MainSpotlightControllerViewController alloc] initWithNibName:@"MainSpotlightControllerViewController" bundle:bundle];
+    self.spotlightController.instance_id = self.instance_id;
+    self.spotlightController.user = userOptions;
     
     [self presentViewController:self.spotlightController animated:NO completion:nil];
 }

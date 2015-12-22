@@ -7,99 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051F37B56CB24E67DF063009A382C59E /* icon-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D54B1F4E989AFC0B3AEB0C65B8583C8 /* icon-bubble.png */; };
-		059BC267A84C5CE63FE21D45B67FA0AB /* BackArrow-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A96A0800A9CF86153951545742914EF /* BackArrow-2.png */; };
-		0BBBAFA41C28C852000FF900 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFA21C28C852000FF900 /* Montserrat-Bold.ttf */; };
-		0BBBAFA51C28C852000FF900 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFA31C28C852000FF900 /* Montserrat-Regular.ttf */; };
+		025C8ED4BBA0592728F9B868304532C5 /* xcschememanagement.plist in Sources */ = {isa = PBXBuildFile; fileRef = 62D3ECBD1E53FF0D8A53056FBD83110E /* xcschememanagement.plist */; };
+		05B99E7378B51098386E2BF0BB0A799D /* SpotlightApi.h in Headers */ = {isa = PBXBuildFile; fileRef = F508C4C58A9D0BAECC65EB3547F403D9 /* SpotlightApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA9D24DE19C2CEE71252A7B0359DF00 /* OpenTokUI.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = 47A76E42DA948D553CDCCED159B20DF2 /* OpenTokUI.xcscheme */; };
+		0BBBAFBB1C29CFA7000FF900 /* bg-graphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFBA1C29CFA7000FF900 /* bg-graphic.png */; };
+		0D22CB3CFB52582DD97C58C7884CE8B2 /* BackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FCBCEE0198CEBAAE6AA5C5D57E4ECE /* BackArrow.png */; };
+		105F7CB2894FBDD15743183720DD7772 /* sent-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD40BF98ACA34D3DFDEC560F77189716 /* sent-arrow.png */; };
+		1153C00C31A4E99996941A4EF654FB31 /* icon-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = DAAA5A87C5B6043B4F0E26E1FF8FAEA2 /* icon-bubble.png */; };
+		132657579EECE92B140F1AEE301F9F95 /* UIColor+AppAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9954E6538DF40BCB27440282DF27B9 /* UIColor+AppAdditions.m */; };
 		17E31BC71400546F1879E7C6A834106E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		207A6B2618FF68087E97DD8A01A6CAF1 /* MainSpotlightControllerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4AE2C2FCCBC603DD4525D652504A14 /* MainSpotlightControllerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21555FB6F4289141DE0D3E9A4A4BDD08 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 820FBEAB742A4734719ED48D67E83469 /* Info.plist */; };
-		221763AC351B7F1D29CCFD2619C75AB3 /* icon-close-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2050799449216711FD5F0145C4164774 /* icon-close-circle.png */; };
-		286F5EEE70E2DA0F1A589C0F5BBEDABF /* Spotlight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B1AFC4D54E326B561980DA409C2FF /* Spotlight-dummy.m */; };
-		29AB2D611D848765D1F0BA0BAE7FE86B /* OTKTextChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 653EA701DBF30C86E5B1673888443234 /* OTKTextChatView.m */; };
-		2D176DA0067E762C97748AD495422560 /* OTKTextChat_library.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = 8BDECA9C14B86B0CF712842FA6818A58 /* OTKTextChat_library.xcscheme */; };
-		2E54AF3B38CBA622990DC101258D5AF8 /* icon-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA39739DD36601DB48819F1E3D25D75 /* icon-check.png */; };
-		2F0A203F2AD44ACB740F58272C93E29A /* BackArrow-1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCD2DD4487770CA2557A34C852D043F /* BackArrow-1.png */; };
-		303FACA3F1E6657EAE6F529104EB91BE /* UIView+EasyAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8565AA474DA39D2B5AFA0285DF56C8 /* UIView+EasyAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31D91F61C10B3A267780B55FC7DF88AD /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CF73B54D00F41B04B2717E3BE14CF3 /* EventViewController.m */; };
-		365CC174A2F1B329640F805647C4339A /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3805CFE8DB272D3F900D56BA1203FA08 /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39D220BFD17C3426CD8C56C6D665DB92 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C4157A365EB983E5B0ED694D78718242 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43ECA42BAE3E0EF44836423602A9C511 /* UIColor+AppAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0B8400734470966DC8D6121FD14CD9 /* UIColor+AppAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		446062F1B887156B2765122307D79E64 /* IconBack.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BFF6E33F01236592E8DA66E70FB4E /* IconBack.imageset */; };
-		45A685F28F9DAE6E8BF5E27DCF2592FD /* EventViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5875A1490EA34D5529159DA9F3111A6 /* EventViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		461CC7D6F2348130E9BC3AE9895346A4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFDA4A553053BF5E41521F8306A0239A /* README.md */; };
-		4B2A02D9836670A4E78321E6CCC19886 /* OpenTokUI.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = CA708C2674EE07ED3B1C42003CF3B681 /* OpenTokUI.xcscheme */; };
-		4C73212CDBB22D926BF22BDCB108ABBB /* OTKTextChatBundle.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = 51F8E26B2BB1B77F3DF0210249A65938 /* OTKTextChatBundle.xcscheme */; };
-		4D15C7512774848B24EFF16F84EBD7A3 /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4451E98F1AF233C22544313C35E46BF5 /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		501167D0A8C1DAF05EEA9B4A2C36553F /* MainSpotlightControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FDE516C12588FCBDE9F4EA5CCD4305 /* MainSpotlightControllerViewController.m */; };
+		188E974DAF9071D94E999AF53321086C /* BackArrow-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46B44B75481A384DD7C9163E9EA98D /* BackArrow-1.png */; };
+		1981B3E947F3D252E87B0C54B15356B1 /* icon-check-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F1D7A081DA38CF1CD30301F606F19E /* icon-check-circle@2x.png */; };
+		1CEE29F8F836F40FA740AAEBF3FC8287 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EF547453B94690C36DCDA9D77DB4F7 /* Reachability.m */; };
+		1F7D3D28090AB67C3E5549CA5BB59983 /* Spotlight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B1AFC4D54E326B561980DA409C2FF /* Spotlight-dummy.m */; };
+		1FDE55CEECC1126B1566C3EAFA6FE517 /* sent-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F237E1AF8165C1D4041CC2351AC683EF /* sent-arrow@2x.png */; };
+		23236EFF8DF58B53173A08BB78F917C3 /* UIView+EasyAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECAD2D6D4787122E7DAC996E59A69FD /* UIView+EasyAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23646B19F298BB1268375FBDED21D523 /* dataButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF42A3D785790774145909A4C9BF1D57 /* dataButton.m */; };
+		26BFB6445F6F507FC096E24A099BA269 /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB2810746A28CE6445212266CD4A755 /* DGActivityIndicatorView.m */; };
+		2C4297CA14A80A204CDDC820EFAB2AC7 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E72610935413FA287295D22DB644BF9 /* EventViewController.xib */; };
+		2F8FF231777CBB09600BDD281FC13095 /* MainSpotlightControllerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D432B2BB53B17B4A0F0B6C82EDC314B /* MainSpotlightControllerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F974A336803094FC0450AA6CD93D51D /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A8B2533D39BCAD61CD6A1AF457D667 /* EventsViewController.m */; };
+		333ABA230AF412B86193BC90864211BA /* OTKTextChatComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FD0CE6A000F0C044757DFAE5B77EB7 /* OTKTextChatComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F7044F322DD6D5EE37859B406A3D55 /* OTKTextChatRecvShortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E91C729F1BBE2CEA2AAE66798EA861 /* OTKTextChatRecvShortTableViewCell.xib */; };
 		512FB79CB869D5B0FB761FCBB09ACD3B /* socket.io.js.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCAB1FCFCC354E54ECCB27ECEA5ADB2 /* socket.io.js.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		533A1471382D70FF6ADD96E36BF81E0F /* OTKTextChatRecvTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B169B01F9F98C2CC9C02E3F89B046E /* OTKTextChatRecvTableViewCell.xib */; };
-		5AD7A70D3A474736904122BCFD01C575 /* sent-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B72A7BA3D15E3A623B74110A7026E2B7 /* sent-arrow.png */; };
-		60AD33643E3D173E3F2301E40B61E0F6 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FF992A5BDF8148EF8D591226CEE8A6 /* EventsViewController.xib */; };
-		60E045180A5F68AF9A5DF2660AEE63CB /* OTKTextChatRecvShortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE4760ADFE2DAAFA7BDE62A3830A864 /* OTKTextChatRecvShortTableViewCell.xib */; };
-		6178B3E64C2A57B44BDF8650DC410917 /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E1475DBCB6AF6F3202198D4EEE57DC /* testClass.m */; };
-		636CDF55C70A653E204E76828A4535CA /* xcschememanagement.plist in Sources */ = {isa = PBXBuildFile; fileRef = DB394E7AED13701C085863157094B461 /* xcschememanagement.plist */; };
-		6561715852862749E17F0AD491C67B80 /* spotlightAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40E0070CB157B71C9EDF48F01876D42 /* spotlightAssets.xcassets */; };
-		68187B1DDA275EEE2B6B59FF9D47EDF6 /* EventsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E9AF4D3E161852058424DEB733AC8A /* EventsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DB28880A9FCF474FEA96050DCE31AA2 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA6E5707FFBDDB98765867F9207AD17 /* DGActivityIndicatorFiveDotsAnimation.m */; };
-		7260F182F079FBA2435E388DBE9143AD /* IconCloseCircle.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F4CF9B46378E8B1D0044BCF056A30330 /* IconCloseCircle.imageset */; };
-		78302F8363C7E62BF862AAFBD12DDE30 /* OTDefaultAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6C8B7A75395AB9283DAB84FD14CB8 /* OTDefaultAudioDevice.m */; };
-		7BE65039A4E44A08DC2BBEE92DE3EB5B /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B0CE94246EF14C201A274C8A026BA /* DGActivityIndicatorView.m */; };
-		80470CBCD85B41EAFFF5CA95ED2ADD89 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B09CDC77B7F87337C802B1DBE42EBB0 /* Alert.m */; };
-		86C83C0B0B38DF962265D30F387620E5 /* UIColor+AppAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF4A4E28760C08841457A3F40D668E /* UIColor+AppAdditions.m */; };
+		540C6E4568C4D4B04B1DBE6899DDB909 /* dataButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCCD3DDE2944976856A6CEDA71B6230 /* dataButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1A7196B146BCD30F9DC1860B7C2F02 /* EventsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFCC97B7DE4C497AE687F753129EABF /* EventsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60AD2A96CC665DC15A2130E72D49BFC5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2E405ECFDDB728D3F3FC13C22DA22B4 /* Montserrat-Bold.ttf */; };
+		6DDC9948DF7F17C438D4F2D1492AF87F /* OTKTextChat_library.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = 33501EE5EE8D53D5701615148899FF4E /* OTKTextChat_library.xcscheme */; };
+		75FB8A7FE3B281CBAE8A4C51AD7BEDBC /* MainSpotlightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74CCF42EE0360E0725822F2A5637DC9 /* MainSpotlightView.xib */; };
+		7679094062616FC500E616F7C88A429B /* MainSpotlightControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D3186A92EE9FEF2956B989DB986108 /* MainSpotlightControllerViewController.xib */; };
+		76B8BCFC2E06A1DF05903B3E9FEC0051 /* OTKTextChatDivTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC695D4012D9E9E2C15609FEACD9240A /* OTKTextChatDivTableViewCell.xib */; };
+		7CF2E862FF443A64F4E0776049C261CE /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E09B5329D9752BE1131A23A335CADC7 /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F926C9B288802BFE30F305BF78A244 /* recv-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CA95F670E9DCCFFE18D4D8347E9284 /* recv-arrow@2x.png */; };
+		83C22368BF1ABE3264DBEBE22012811E /* OTKTextChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925C305C7FE7603CA10637C48EB1A51 /* OTKTextChatTableViewCell.m */; };
+		84D9194F8F75EE4EA0A6D9FCCAAC4351 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441395637A680C05265C2B48464B8BF /* DGActivityIndicatorFiveDotsAnimation.m */; };
+		89924007B2D367498156136C84397074 /* recv-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5BBE25E55A9E24A19D8D6B0BD69A67 /* recv-arrow.png */; };
 		8A3E9FB2E2ED6C46192E202CC3FA7413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		8A449677CB67EDB542FEF8F6CF851C0E /* OTKTextChatBundle in Resources */ = {isa = PBXBuildFile; fileRef = EFC75DA2BC0D0341C7A42BCC1EDA141F /* OTKTextChatBundle */; };
-		8B33DAF14414008EE01B8EBAAA86C1A2 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C54E8223DDE09D213DE46FBCC557ED /* EventCell.xib */; };
-		8C01C2BC14B1548853A35DA901801C4D /* MainSpotlightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B25CD9FE2CBEF05C07154036C6C14D /* MainSpotlightView.xib */; };
-		90FE65EE034B125422769C671703514D /* SpotlightApi.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9117BB179363AFB0AE78498D02840E /* SpotlightApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9341BBCDA5449362C47F9F7761759D12 /* OTKTextChatComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D056ABAE2DA50BEA8D4A5889F40C54 /* OTKTextChatComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		944C8374FF00AB477C83A38653D68B4A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8172FAE9A063640E31BA2A0B8227D7E2 /* Reachability.m */; };
-		945861F835A292933F90DD861F5924AC /* IconCheck.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 2DDA951DE835C889815668BFB6B9A0CA /* IconCheck.imageset */; };
+		8B253F5B1CD2882D76A8A0F86F3F59B6 /* icon_sendMsgArrow_052015.png in Resources */ = {isa = PBXBuildFile; fileRef = 87393A706DAA3E13E11DB50D0F2625D1 /* icon_sendMsgArrow_052015.png */; };
+		8F0957553E3215F5711E54F8F794B4D3 /* OTKTextChatTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D54C9802C8395FFE59A61AFC51B070 /* OTKTextChatTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DEF9C04238FB985166389A47DCDC36 /* OTKTextChatComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30108FA1184818DADC1FF91F65961443 /* OTKTextChatComponent.xib */; };
+		96754BEEF503DA03C2193E9FB20C306A /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE00CF0CDC59002243CE3ADC59DFCDD /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C0449BF37890B34CFFAFF33DF58FFD /* SIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BCA013E06A70BAEADC55B66FE3144A /* SIOSocket.m */; };
-		9AA517429ED816CF1C89AAD47198ED73 /* BackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F75BB0366BE76FC62CF305F1B8D9C7 /* BackArrow.png */; };
-		9C0D37CF9C44877989D5CC18A45107DA /* OTKTextChatDivTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E2B5340C588363A6BA2F4D10B07BB3 /* OTKTextChatDivTableViewCell.xib */; };
-		9C95D1EF4F9928216BC2297B57B28D7B /* ChatImage.imageset in Resources */ = {isa = PBXBuildFile; fileRef = CB7B0488909687EF236384D87C7B08B9 /* ChatImage.imageset */; };
-		9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F523D2D9A5E4401A14FCB90B43E08B7 /* Contents.json */; };
 		9E8D91EC0DEDDADAA4FC00CBC8463A83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9EA12625B875C08934DC007722D093E5 /* OTDefaultAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B030A68C6493C6D56A4176BE316A2F7 /* OTDefaultAudioDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15198089CCEAB6FB05F295FE5C4FE25 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D92A6A07908BB52CB9B9231467A337 /* EventViewController.xib */; };
-		A1D6F6932745FE1FDB06A300B5802646 /* icon-check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7814658E43B2FA3ED1F9F1F582276F /* icon-check@2x.png */; };
+		A152AB442F3E929AB3C2D21CCDBCA38C /* icon-check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C194D150F0E1E5F967762729CBB11 /* icon-check@2x.png */; };
+		A528AF95467616BDBD05E88CD3498328 /* icon-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E36462E83D955D0DE2C94B9A445677 /* icon-check.png */; };
+		A55EA54D23CD806DBFF67CDEEE46F355 /* OTKTextChatComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB39E69A9F28944BB58965ED17C3E315 /* OTKTextChatComponent.m */; };
+		A5FC706B673286AB3C67EBA12629501D /* OTKTextChatSentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A66C3EC4D68DA019C41B510B7309065 /* OTKTextChatSentTableViewCell.xib */; };
+		AA2BDCDC13C3301A16912D9F9C8A8E94 /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C60CE8927D8EA4BEE2533DF419E2F15 /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAA36F13510A67CC172E86ACFF397C7C /* SIOSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0560063A772397AB8EB14060576A619C /* SIOSocket-dummy.m */; };
-		AD238E09CDBE997F65FD2F08849FBA81 /* OTKTextChatTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F539FBECFFCD8752DDF7348D9390AF /* OTKTextChatTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF3098718DD39276C584213145CE5C09 /* recv-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3958EC1EE2FE71C863DAD2194D8B5C11 /* recv-arrow.png */; };
-		B02979DA2AC9DFF7F35FE80413B0517A /* icon_sendMsgArrow_052015.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECE1A411AF20B72B8B6FD17845DA011 /* icon_sendMsgArrow_052015.png */; };
-		B7B85B9B556FE0219C82BC6EB505374B /* OTKTextChatComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66266BBEA49BAB050350AF429BA31AF3 /* OTKTextChatComponent.xib */; };
-		B7DCB64AAC8F81860C95546971FD4C67 /* sent-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0363BD48755812EC5565E9E9320AB82B /* sent-arrow@2x.png */; };
+		AC9B75EF932C08892EB11E25D7649643 /* UIView+EasyAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA61756A41FFFBBBF8F70768DDC7D8 /* UIView+EasyAutoLayout.m */; };
+		AF45709A443625C3708717ED27BCB336 /* EventViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C295C0D0BE3FEBC9FF641FCDA05AAC15 /* EventViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54091CAA059B1CCCE91E68611DAFCD5 /* icon-check-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B1A0C074B24994313E946D81AAB9BB /* icon-check-circle.png */; };
+		B8A4A5ABB09F69729EAAB0CCFACED4E6 /* OTKTextChatBundle.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = 9297E433E3F0949538E031BC99AA0E59 /* OTKTextChatBundle.xcscheme */; };
 		B95F5A447966E3CC81EBCC87AE461735 /* Pods-Spotlight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B0635DDF94AC5FA9DA2DA7980234F9 /* Pods-Spotlight_Tests-dummy.m */; };
 		BA98517816DCCDA404F6E40414A9B1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		BD0D4F0D2C18135D1F742D7D550784B8 /* dataButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 12844A80157B6D1783E5514E945FCBA2 /* dataButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE904957962F685A66630301396E959E /* testClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E54F0C909BCE393F32D2830608F33E0D /* testClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C218FDFC455A38A3A9BF58DFE00238C5 /* MakeFramework.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = DFACE450B09A0004498C4906CB9A5E1F /* MakeFramework.xcscheme */; };
-		C2919D4605BE75FDD4D6DAC53669D180 /* icon-close.png in Resources */ = {isa = PBXBuildFile; fileRef = A10A0ABF5ABAFCEF859722B2FE815A90 /* icon-close.png */; };
-		C3236BF78B68F1C46C1A6CE0067ED3C2 /* OTKTextChatComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F115256BEAFF39A0421DF6F48735B5 /* OTKTextChatComponent.m */; };
-		C6FE7830D9D109E5B4BAB1218058809F /* recv-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 285F682527D951EF0CF44960A1D9D856 /* recv-arrow@2x.png */; };
-		C7CA891A565680E7D833BADB7B1D7EBA /* OTKTextChatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D6034B9C44A7AC3F55C4E27359C80A /* OTKTextChatView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8B9567CA84377AE2703B5DA363A24E2 /* UIView+EasyAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFF31240AE9EA4C2DD6007D7581059D /* UIView+EasyAutoLayout.m */; };
-		CDA498857494B189C1A6018EC9242C32 /* icon-check-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = F813D1638C0554BA733661FEFD3139D6 /* icon-check-circle.png */; };
-		CDF8B8250CACA16BDB34C3F417A9CBC1 /* MainSpotlightControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A3786357F6601AA26DA5D5F6D6AD7E /* MainSpotlightControllerViewController.xib */; };
-		CF8D4B8EFCB3EA19929B6AE4D397DAC9 /* dataButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE38A63A72C65C366A8FA2B658EDEB /* dataButton.m */; };
-		D5F25497714F66B3D147B36F321C683B /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4822C0404F3E1C4E54EEBBC9944FB02 /* EventsViewController.m */; };
-		D632282A5935350F34EA47D01F2D6EA4 /* OTKTextChatSentShortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A900C116358DE857BF90240465F8424A /* OTKTextChatSentShortTableViewCell.xib */; };
-		D98714ED36705CB1A979038608E1FD61 /* icon-close-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC16D58EACE112CD55C5BD4815D1196 /* icon-close-circle@2x.png */; };
-		DD7619FCA859EC5294A5C53943B62765 /* icon-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB63EC6593C505F67078A603FA3C48A6 /* icon-close@2x.png */; };
+		C129C3776CFB5E947A8EA9F15A86D875 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = B255F9312C09788ED16E2B9737B26D88 /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3607B4C0721462CC5F3BD0C7737EDD7 /* UIColor+AppAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BA165722029EA992806A2CBDA5ADE0 /* UIColor+AppAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C538B6CE02B266056CB2C5DFF846394A /* OTKTextChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 404A9DADC7FAF8AC46B13EAB65B48257 /* OTKTextChatView.m */; };
+		C7A0AD688CB86F4882A4F55B56A69751 /* OTKTextChatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8641D6300B0514F5C379DC324CFFA09E /* OTKTextChatView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9C836CC2B89B3A7604F64CCD1BD4681 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B078FBA85B25BC1CD68FEF06FD857E3 /* Alert.m */; };
+		CABB81FBC84DBF60CD24E242C13C8B5B /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB2B8E30130248B315BEEF961BD1AA /* EventViewController.m */; };
+		CAF67441594049F35115EE046C3AB880 /* MakeFramework.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = EAFB54B7DC8C4C1B2431F8D22408EB9C /* MakeFramework.xcscheme */; };
+		CB34FD4A40F4BA10539F95E69E32ADD3 /* OTKTextChatSentShortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23F5C33B982BFC2A621108DDC92F0DB /* OTKTextChatSentShortTableViewCell.xib */; };
+		D34A45B2094B8C62597836A0EED98F46 /* icon-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F26BE9CED7CA77800F7B2A5914F562C /* icon-close@2x.png */; };
+		D5BEB8BB3D20CF45E6A74B0942F1B955 /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = D426E19D9D93A365F9D0AA93238946FE /* project.pbxproj */; };
 		DFD8E55662E2CF53ACE1FB2BD65787B0 /* Pods-Spotlight_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0F3BFE131D364E5F315EDA7BE6FB2 /* Pods-Spotlight_Example-dummy.m */; };
-		E17E41DD520B0769A141D11B7B5C0B13 /* icon-bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A004C9EEDF80735E05EA8C242187646B /* icon-bubble@2x.png */; };
-		E2DCECAAB5AFB7BB55702DA5A6479767 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 15002D2437971D2E06DD3BED47817D10 /* Info.plist */; };
-		E339996BAD0DCFB4B983FB21645244F9 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0FD55838DE7E55BF58591DA3BB5126 /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E40358A08C4DDD4D5E07E012814424EB /* IconCheckCircle.imageset in Resources */ = {isa = PBXBuildFile; fileRef = DDE0C112C360F4A9E414B9CB891DB24B /* IconCheckCircle.imageset */; };
+		E2919CFEA70F28EC44FF25CD5C5C34DD /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F95C209FDC1D58E7D6E34CDBAC356951 /* Info.plist */; };
+		E366AC37EF8128EB24D991296B607E2B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2097E5C9CF4F3563B1FDDE5E6FD435 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E54994246E16CE19A3B3B0FDC8F9A34C /* SIOSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D740CE9CE313CC4F60C0FA2BAE432CA5 /* SIOSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA8DEB45F809852216B66513AB4AA128 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BAB5AD7C40422191B18503D33AB90E /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF9EDAE3704981B6D079F4C81FE42912 /* IconClose.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 6D764792D12F4619DA1185DE5D7E6DCA /* IconClose.imageset */; };
-		F1337F05CF097ADCB1478541EDCABEDB /* SpotlightApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 987E179049947A259B5A3227860DAE97 /* SpotlightApi.m */; };
-		F44AF1208B3C3984E0C2028DBE349963 /* OTKTextChatSentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BF14C370BF4B24F7F1E31D60BEAA5F /* OTKTextChatSentTableViewCell.xib */; };
-		F57D5A5E192017B2176C13597651C7B1 /* OTKTextChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A949BD05596BBA9FECCDBD0950145 /* OTKTextChatTableViewCell.m */; };
-		F97C556DE9A66A4DD6C35A6B08FBB322 /* icon-check-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BF89589B38952EE8E008AE0AB1C4D0 /* icon-check-circle@2x.png */; };
-		FF6032A7F6F6CC3311D6170D43FB1DCA /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = C2DAFA6EA2E838069CEF544132EC69BF /* project.pbxproj */; };
+		E6397699465590C031F742C80C114218 /* OTKTextChatRecvTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0258772A0DE7E6427A0BFCE337384C3F /* OTKTextChatRecvTableViewCell.xib */; };
+		E73AC57E7DB0BCD26B072373B3CE35B9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7A52FC46D464E79C6CFEBF02661B314 /* README.md */; };
+		EA5C8E9CB149848D3CDDCBB9601C938D /* BackArrow-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9C36B18681A071D0B134E2F6E6C524 /* BackArrow-2.png */; };
+		EC18AD15718A08FE510ECBFBAA783D95 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AF7E6847DB44305198BFBDD0AA32EF /* Montserrat-Regular.ttf */; };
+		EC3B8C2CFE2434E87A6C6C610250FE46 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31996F0C10A6CF73CACFA4154190CEF /* EventCell.xib */; };
+		EEBBF243119FED23174172A5AFD0CF69 /* icon-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA06DB5F136444B706CB78F58FDC172 /* icon-close.png */; };
+		F27F5EFA1E0A950D357D387F794F4EFB /* SpotlightApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C044A981DD02CD389B1A7510C18CED /* SpotlightApi.m */; };
+		F2A998AA45596F0438B165AAD787BF78 /* icon-close-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = FB292711E90F4467AA6EDE1DA05297FF /* icon-close-circle.png */; };
+		F64E5AEFEE32B4E986600DE0B7AC2FCA /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340770D4CACB6BFF3E12FDD0A008164B /* EventsViewController.xib */; };
+		F734E8406310C5710925754D39B16D83 /* MainSpotlightControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D111603A53CE09DB2E69378A3407D9 /* MainSpotlightControllerViewController.m */; };
+		FA3C67384805772EF95B9FB438775B87 /* icon-close-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A364A7B345ACA06F36DC5DEFD62BCDE /* icon-close-circle@2x.png */; };
+		FD3398BF5B6B8C52893570FDC876ED5E /* icon-bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D87D67384750734BA12A5F1EB62D35 /* icon-bubble@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,124 +136,105 @@
 
 /* Begin PBXFileReference section */
 		00452E12E946D3F68265A2CD5DCC5DE4 /* Pods-Spotlight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spotlight_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0363BD48755812EC5565E9E9320AB82B /* sent-arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sent-arrow@2x.png"; sourceTree = "<group>"; };
+		0258772A0DE7E6427A0BFCE337384C3F /* OTKTextChatRecvTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatRecvTableViewCell.xib; sourceTree = "<group>"; };
 		0560063A772397AB8EB14060576A619C /* SIOSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIOSocket-dummy.m"; sourceTree = "<group>"; };
-		05D6034B9C44A7AC3F55C4E27359C80A /* OTKTextChatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTKTextChatView.h; sourceTree = "<group>"; };
-		06B25CD9FE2CBEF05C07154036C6C14D /* MainSpotlightView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainSpotlightView.xib; sourceTree = "<group>"; };
-		09CF73B54D00F41B04B2717E3BE14CF3 /* EventViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
-		0AD38E2099CF97903CF02EB80D423401 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		0BBBAFA21C28C852000FF900 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		0BBBAFA31C28C852000FF900 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		0E6BFF6E33F01236592E8DA66E70FB4E /* IconBack.imageset */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = IconBack.imageset; sourceTree = "<group>"; };
-		12844A80157B6D1783E5514E945FCBA2 /* dataButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dataButton.h; sourceTree = "<group>"; };
-		15002D2437971D2E06DD3BED47817D10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A96A0800A9CF86153951545742914EF /* BackArrow-2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "BackArrow-2.png"; sourceTree = "<group>"; };
+		05D54C9802C8395FFE59A61AFC51B070 /* OTKTextChatTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTKTextChatTableViewCell.h; sourceTree = "<group>"; };
+		0A364A7B345ACA06F36DC5DEFD62BCDE /* icon-close-circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close-circle@2x.png"; sourceTree = "<group>"; };
+		0BBBAFBA1C29CFA7000FF900 /* bg-graphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-graphic.png"; sourceTree = "<group>"; };
+		0FCCD3DDE2944976856A6CEDA71B6230 /* dataButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dataButton.h; sourceTree = "<group>"; };
+		12CA95F670E9DCCFFE18D4D8347E9284 /* recv-arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "recv-arrow@2x.png"; sourceTree = "<group>"; };
+		19D111603A53CE09DB2E69378A3407D9 /* MainSpotlightControllerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainSpotlightControllerViewController.m; sourceTree = "<group>"; };
+		1C60CE8927D8EA4BEE2533DF419E2F15 /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
 		1CCAB1FCFCC354E54ECCB27ECEA5ADB2 /* socket.io.js.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket.io.js.h; path = SocketIO/Source/socket.io.js.h; sourceTree = "<group>"; };
-		2050799449216711FD5F0145C4164774 /* icon-close-circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close-circle.png"; sourceTree = "<group>"; };
-		24A3786357F6601AA26DA5D5F6D6AD7E /* MainSpotlightControllerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainSpotlightControllerViewController.xib; sourceTree = "<group>"; };
-		285F682527D951EF0CF44960A1D9D856 /* recv-arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "recv-arrow@2x.png"; sourceTree = "<group>"; };
-		2DDA951DE835C889815668BFB6B9A0CA /* IconCheck.imageset */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = IconCheck.imageset; sourceTree = "<group>"; };
-		2EE4760ADFE2DAAFA7BDE62A3830A864 /* OTKTextChatRecvShortTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatRecvShortTableViewCell.xib; sourceTree = "<group>"; };
-		2FA39739DD36601DB48819F1E3D25D75 /* icon-check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check.png"; sourceTree = "<group>"; };
+		21AA61756A41FFFBBBF8F70768DDC7D8 /* UIView+EasyAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyAutoLayout.m"; sourceTree = "<group>"; };
+		2441395637A680C05265C2B48464B8BF /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		25EF547453B94690C36DCDA9D77DB4F7 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		26AF7E6847DB44305198BFBDD0AA32EF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2A66C3EC4D68DA019C41B510B7309065 /* OTKTextChatSentTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatSentTableViewCell.xib; sourceTree = "<group>"; };
+		2FFCC97B7DE4C497AE687F753129EABF /* EventsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		30108FA1184818DADC1FF91F65961443 /* OTKTextChatComponent.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatComponent.xib; sourceTree = "<group>"; };
+		31FCBCEE0198CEBAAE6AA5C5D57E4ECE /* BackArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = BackArrow.png; sourceTree = "<group>"; };
 		32A3B2A65D4DDBD8ACBD1CF0AD93FF41 /* libSpotlight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpotlight.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3805CFE8DB272D3F900D56BA1203FA08 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorView.h; sourceTree = "<group>"; };
-		3958EC1EE2FE71C863DAD2194D8B5C11 /* recv-arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "recv-arrow.png"; sourceTree = "<group>"; };
+		33501EE5EE8D53D5701615148899FF4E /* OTKTextChat_library.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = OTKTextChat_library.xcscheme; sourceTree = "<group>"; };
+		340770D4CACB6BFF3E12FDD0A008164B /* EventsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		34A8B2533D39BCAD61CD6A1AF457D667 /* EventsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		39E36462E83D955D0DE2C94B9A445677 /* icon-check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check.png"; sourceTree = "<group>"; };
 		3BD0F3BFE131D364E5F315EDA7BE6FB2 /* Pods-Spotlight_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spotlight_Example-dummy.m"; sourceTree = "<group>"; };
-		3D54B1F4E989AFC0B3AEB0C65B8583C8 /* icon-bubble.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-bubble.png"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3ECE1A411AF20B72B8B6FD17845DA011 /* icon_sendMsgArrow_052015.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_sendMsgArrow_052015.png; sourceTree = "<group>"; };
+		3EA06DB5F136444B706CB78F58FDC172 /* icon-close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close.png"; sourceTree = "<group>"; };
+		3ECAD2D6D4787122E7DAC996E59A69FD /* UIView+EasyAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyAutoLayout.h"; sourceTree = "<group>"; };
 		4034740341E15596E4B6FE1C710888E2 /* Pods-Spotlight_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Spotlight_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4451E98F1AF233C22544313C35E46BF5 /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
-		4A3B6E45DF8B77B6A497541A740B0AE9 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		51F115256BEAFF39A0421DF6F48735B5 /* OTKTextChatComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTKTextChatComponent.m; sourceTree = "<group>"; };
-		51F8E26B2BB1B77F3DF0210249A65938 /* OTKTextChatBundle.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = OTKTextChatBundle.xcscheme; sourceTree = "<group>"; };
+		404A9DADC7FAF8AC46B13EAB65B48257 /* OTKTextChatView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTKTextChatView.m; sourceTree = "<group>"; };
+		47A76E42DA948D553CDCCED159B20DF2 /* OpenTokUI.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = OpenTokUI.xcscheme; sourceTree = "<group>"; };
+		4C9C36B18681A071D0B134E2F6E6C524 /* BackArrow-2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "BackArrow-2.png"; sourceTree = "<group>"; };
+		4D432B2BB53B17B4A0F0B6C82EDC314B /* MainSpotlightControllerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainSpotlightControllerViewController.h; sourceTree = "<group>"; };
+		56AB2B8E30130248B315BEEF961BD1AA /* EventViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		5712BDD8DEF3084AFDA2A508FC067B85 /* SIOSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIOSocket-prefix.pch"; sourceTree = "<group>"; };
-		57D92A6A07908BB52CB9B9231467A337 /* EventViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
 		58E09DC9BAACB2C613D1E28B87A9A871 /* libPods-Spotlight_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spotlight_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A1B0CE94246EF14C201A274C8A026BA /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorView.m; sourceTree = "<group>"; };
+		5A5BBE25E55A9E24A19D8D6B0BD69A67 /* recv-arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "recv-arrow.png"; sourceTree = "<group>"; };
+		5B2097E5C9CF4F3563B1FDDE5E6FD435 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5B3B1AFC4D54E326B561980DA409C2FF /* Spotlight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spotlight-dummy.m"; sourceTree = "<group>"; };
-		5E0FD55838DE7E55BF58591DA3BB5126 /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
-		62FF992A5BDF8148EF8D591226CEE8A6 /* EventsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
-		653EA701DBF30C86E5B1673888443234 /* OTKTextChatView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTKTextChatView.m; sourceTree = "<group>"; };
-		66266BBEA49BAB050350AF429BA31AF3 /* OTKTextChatComponent.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatComponent.xib; sourceTree = "<group>"; };
-		67B169B01F9F98C2CC9C02E3F89B046E /* OTKTextChatRecvTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatRecvTableViewCell.xib; sourceTree = "<group>"; };
-		68D056ABAE2DA50BEA8D4A5889F40C54 /* OTKTextChatComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTKTextChatComponent.h; sourceTree = "<group>"; };
-		6B09CDC77B7F87337C802B1DBE42EBB0 /* Alert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
-		6C0B8400734470966DC8D6121FD14CD9 /* UIColor+AppAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppAdditions.h"; sourceTree = "<group>"; };
-		6D764792D12F4619DA1185DE5D7E6DCA /* IconClose.imageset */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = IconClose.imageset; sourceTree = "<group>"; };
-		6F4AE2C2FCCBC603DD4525D652504A14 /* MainSpotlightControllerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainSpotlightControllerViewController.h; sourceTree = "<group>"; };
+		5E09B5329D9752BE1131A23A335CADC7 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorView.h; sourceTree = "<group>"; };
+		5E9954E6538DF40BCB27440282DF27B9 /* UIColor+AppAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppAdditions.m"; sourceTree = "<group>"; };
+		5F26BE9CED7CA77800F7B2A5914F562C /* icon-close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close@2x.png"; sourceTree = "<group>"; };
+		62D3ECBD1E53FF0D8A53056FBD83110E /* xcschememanagement.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
 		705189B75CC9CD1C7B59B6D6DBB3B1C5 /* Pods-Spotlight_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spotlight_Example-frameworks.sh"; sourceTree = "<group>"; };
 		705B84BEFBA018919F6D791D462D901B /* Pods-Spotlight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spotlight_Example.release.xcconfig"; sourceTree = "<group>"; };
-		76C6C8B7A75395AB9283DAB84FD14CB8 /* OTDefaultAudioDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTDefaultAudioDevice.m; sourceTree = "<group>"; };
+		74B1A0C074B24994313E946D81AAB9BB /* icon-check-circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check-circle.png"; sourceTree = "<group>"; };
+		75FD0CE6A000F0C044757DFAE5B77EB7 /* OTKTextChatComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTKTextChatComponent.h; sourceTree = "<group>"; };
 		777C80A18E169BAEF42A01A067F08789 /* SIOSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIOSocket.xcconfig; sourceTree = "<group>"; };
-		7CBBA03BAB6EB5C5E0876D562213C412 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		7DEF4A4E28760C08841457A3F40D668E /* UIColor+AppAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppAdditions.m"; sourceTree = "<group>"; };
+		77C044A981DD02CD389B1A7510C18CED /* SpotlightApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SpotlightApi.m; sourceTree = "<group>"; };
+		7E72610935413FA287295D22DB644BF9 /* EventViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
 		7F237DC4032BC870369397E49463E204 /* Spotlight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spotlight-prefix.pch"; sourceTree = "<group>"; };
 		7F9EFD0FB72F717EF4EF62F080093A51 /* Pods-Spotlight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spotlight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8172FAE9A063640E31BA2A0B8227D7E2 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		820FBEAB742A4734719ED48D67E83469 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83FDE516C12588FCBDE9F4EA5CCD4305 /* MainSpotlightControllerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainSpotlightControllerViewController.m; sourceTree = "<group>"; };
+		80E91C729F1BBE2CEA2AAE66798EA861 /* OTKTextChatRecvShortTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatRecvShortTableViewCell.xib; sourceTree = "<group>"; };
 		843AFC823479C6133B4039F09B65ED56 /* Pods-Spotlight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Spotlight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85F75BB0366BE76FC62CF305F1B8D9C7 /* BackArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = BackArrow.png; sourceTree = "<group>"; };
-		8BDECA9C14B86B0CF712842FA6818A58 /* OTKTextChat_library.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = OTKTextChat_library.xcscheme; sourceTree = "<group>"; };
-		8CFE38A63A72C65C366A8FA2B658EDEB /* dataButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = dataButton.m; sourceTree = "<group>"; };
-		8D8565AA474DA39D2B5AFA0285DF56C8 /* UIView+EasyAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyAutoLayout.h"; sourceTree = "<group>"; };
+		8641D6300B0514F5C379DC324CFFA09E /* OTKTextChatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTKTextChatView.h; sourceTree = "<group>"; };
+		87393A706DAA3E13E11DB50D0F2625D1 /* icon_sendMsgArrow_052015.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_sendMsgArrow_052015.png; sourceTree = "<group>"; };
+		8925C305C7FE7603CA10637C48EB1A51 /* OTKTextChatTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTKTextChatTableViewCell.m; sourceTree = "<group>"; };
+		89D87D67384750734BA12A5F1EB62D35 /* icon-bubble@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-bubble@2x.png"; sourceTree = "<group>"; };
+		8B078FBA85B25BC1CD68FEF06FD857E3 /* Alert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 		914358A32DF59D0A2468D1C3977791E3 /* Pods-Spotlight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spotlight_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9297E433E3F0949538E031BC99AA0E59 /* OTKTextChatBundle.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = OTKTextChatBundle.xcscheme; sourceTree = "<group>"; };
 		9318E501366E2C6CA5587601BFE08D06 /* Pods-Spotlight_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spotlight_Example-resources.sh"; sourceTree = "<group>"; };
-		987E179049947A259B5A3227860DAE97 /* SpotlightApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SpotlightApi.m; sourceTree = "<group>"; };
 		994EBCC783A6B17E7E5C4831BCA8CD76 /* Pods-Spotlight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spotlight_Tests-resources.sh"; sourceTree = "<group>"; };
-		9B030A68C6493C6D56A4176BE316A2F7 /* OTDefaultAudioDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTDefaultAudioDevice.h; sourceTree = "<group>"; };
-		9F523D2D9A5E4401A14FCB90B43E08B7 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		A004C9EEDF80735E05EA8C242187646B /* icon-bubble@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-bubble@2x.png"; sourceTree = "<group>"; };
-		A0BAB5AD7C40422191B18503D33AB90E /* Alert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
-		A1066048AD4A48B71E6DBA13961082EA /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		A10A0ABF5ABAFCEF859722B2FE815A90 /* icon-close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close.png"; sourceTree = "<group>"; };
-		A40E0070CB157B71C9EDF48F01876D42 /* spotlightAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = spotlightAssets.xcassets; sourceTree = "<group>"; };
+		9B8C194D150F0E1E5F967762729CBB11 /* icon-check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check@2x.png"; sourceTree = "<group>"; };
 		A5FC2AD5D5CAA34746737AF26F900A66 /* Bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A900C116358DE857BF90240465F8424A /* OTKTextChatSentShortTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatSentShortTableViewCell.xib; sourceTree = "<group>"; };
-		AA7814658E43B2FA3ED1F9F1F582276F /* icon-check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check@2x.png"; sourceTree = "<group>"; };
-		AFA6E5707FFBDDB98765867F9207AD17 /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
-		AFDA4A553053BF5E41521F8306A0239A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A74CCF42EE0360E0725822F2A5637DC9 /* MainSpotlightView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainSpotlightView.xib; sourceTree = "<group>"; };
+		A7A52FC46D464E79C6CFEBF02661B314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC695D4012D9E9E2C15609FEACD9240A /* OTKTextChatDivTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatDivTableViewCell.xib; sourceTree = "<group>"; };
+		B255F9312C09788ED16E2B9737B26D88 /* Alert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
 		B4BCA013E06A70BAEADC55B66FE3144A /* SIOSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIOSocket.m; path = SocketIO/Source/SIOSocket.m; sourceTree = "<group>"; };
 		B686B2A2E3DCCB95AB961F18539C4E29 /* Spotlight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spotlight.xcconfig; sourceTree = "<group>"; };
+		B6BA165722029EA992806A2CBDA5ADE0 /* UIColor+AppAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppAdditions.h"; sourceTree = "<group>"; };
+		B6F1D7A081DA38CF1CD30301F606F19E /* icon-check-circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check-circle@2x.png"; sourceTree = "<group>"; };
 		B7049018C4483FA99D4E3534D4752789 /* Pods-Spotlight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spotlight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B72A7BA3D15E3A623B74110A7026E2B7 /* sent-arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sent-arrow.png"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC50CFAEDD26CC52FF1A9FEFCD172BCB /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
-		C0C54E8223DDE09D213DE46FBCC557ED /* EventCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
-		C2DAFA6EA2E838069CEF544132EC69BF /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.pbxproject; path = project.pbxproj; sourceTree = "<group>"; };
-		C4157A365EB983E5B0ED694D78718242 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		C6E1475DBCB6AF6F3202198D4EEE57DC /* testClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = testClass.m; sourceTree = "<group>"; };
+		C295C0D0BE3FEBC9FF641FCDA05AAC15 /* EventViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		C2E405ECFDDB728D3F3FC13C22DA22B4 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		C867416DAD7E98317FC9C3C80E2140B4 /* libPods-Spotlight_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spotlight_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA708C2674EE07ED3B1C42003CF3B681 /* OpenTokUI.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = OpenTokUI.xcscheme; sourceTree = "<group>"; };
-		CB7B0488909687EF236384D87C7B08B9 /* ChatImage.imageset */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ChatImage.imageset; sourceTree = "<group>"; };
-		CF64C49A9A7E06B47B175BD670E14CA7 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		D5875A1490EA34D5529159DA9F3111A6 /* EventViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
-		D6E2B5340C588363A6BA2F4D10B07BB3 /* OTKTextChatDivTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatDivTableViewCell.xib; sourceTree = "<group>"; };
+		CA46B44B75481A384DD7C9163E9EA98D /* BackArrow-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "BackArrow-1.png"; sourceTree = "<group>"; };
+		D0D3186A92EE9FEF2956B989DB986108 /* MainSpotlightControllerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainSpotlightControllerViewController.xib; sourceTree = "<group>"; };
+		D426E19D9D93A365F9D0AA93238946FE /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.pbxproject; path = project.pbxproj; sourceTree = "<group>"; };
 		D740CE9CE313CC4F60C0FA2BAE432CA5 /* SIOSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIOSocket.h; path = SocketIO/Source/SIOSocket.h; sourceTree = "<group>"; };
-		D83A949BD05596BBA9FECCDBD0950145 /* OTKTextChatTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTKTextChatTableViewCell.m; sourceTree = "<group>"; };
-		DB394E7AED13701C085863157094B461 /* xcschememanagement.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
-		DB63EC6593C505F67078A603FA3C48A6 /* icon-close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close@2x.png"; sourceTree = "<group>"; };
-		DBC16D58EACE112CD55C5BD4815D1196 /* icon-close-circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close-circle@2x.png"; sourceTree = "<group>"; };
-		DDE0C112C360F4A9E414B9CB891DB24B /* IconCheckCircle.imageset */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = IconCheckCircle.imageset; sourceTree = "<group>"; };
+		DAAA5A87C5B6043B4F0E26E1FF8FAEA2 /* icon-bubble.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-bubble.png"; sourceTree = "<group>"; };
+		DB39E69A9F28944BB58965ED17C3E315 /* OTKTextChatComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTKTextChatComponent.m; sourceTree = "<group>"; };
+		DCB2810746A28CE6445212266CD4A755 /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorView.m; sourceTree = "<group>"; };
 		DEAC120C25DAA3B62197D400E493D5D7 /* Pods-Spotlight_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spotlight_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DEAF9781A25D9A7751E8F915C9147D95 /* Pods-Spotlight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spotlight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFACE450B09A0004498C4906CB9A5E1F /* MakeFramework.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = MakeFramework.xcscheme; sourceTree = "<group>"; };
-		E2BF14C370BF4B24F7F1E31D60BEAA5F /* OTKTextChatSentTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatSentTableViewCell.xib; sourceTree = "<group>"; };
+		DFE00CF0CDC59002243CE3ADC59DFCDD /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
 		E4B0635DDF94AC5FA9DA2DA7980234F9 /* Pods-Spotlight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spotlight_Tests-dummy.m"; sourceTree = "<group>"; };
-		E4E9AF4D3E161852058424DEB733AC8A /* EventsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
-		E54F0C909BCE393F32D2830608F33E0D /* testClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = testClass.h; sourceTree = "<group>"; };
-		E9BF89589B38952EE8E008AE0AB1C4D0 /* icon-check-circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check-circle@2x.png"; sourceTree = "<group>"; };
-		EB9117BB179363AFB0AE78498D02840E /* SpotlightApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SpotlightApi.h; sourceTree = "<group>"; };
-		ECCD2DD4487770CA2557A34C852D043F /* BackArrow-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "BackArrow-1.png"; sourceTree = "<group>"; };
-		EE4E50387BFA573EDA478443D4EEAC4D /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		EFC75DA2BC0D0341C7A42BCC1EDA141F /* OTKTextChatBundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = OTKTextChatBundle; sourceTree = "<group>"; };
+		EAFB54B7DC8C4C1B2431F8D22408EB9C /* MakeFramework.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = MakeFramework.xcscheme; sourceTree = "<group>"; };
+		EF42A3D785790774145909A4C9BF1D57 /* dataButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = dataButton.m; sourceTree = "<group>"; };
 		F043E603E93073D8033609F38F8623C5 /* libSIOSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSIOSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4822C0404F3E1C4E54EEBBC9944FB02 /* EventsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
-		F4CF9B46378E8B1D0044BCF056A30330 /* IconCloseCircle.imageset */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = IconCloseCircle.imageset; sourceTree = "<group>"; };
-		F813D1638C0554BA733661FEFD3139D6 /* icon-check-circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-check-circle.png"; sourceTree = "<group>"; };
-		F9F539FBECFFCD8752DDF7348D9390AF /* OTKTextChatTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTKTextChatTableViewCell.h; sourceTree = "<group>"; };
-		FEFF31240AE9EA4C2DD6007D7581059D /* UIView+EasyAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyAutoLayout.m"; sourceTree = "<group>"; };
+		F237E1AF8165C1D4041CC2351AC683EF /* sent-arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sent-arrow@2x.png"; sourceTree = "<group>"; };
+		F23F5C33B982BFC2A621108DDC92F0DB /* OTKTextChatSentShortTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTKTextChatSentShortTableViewCell.xib; sourceTree = "<group>"; };
+		F31996F0C10A6CF73CACFA4154190CEF /* EventCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		F508C4C58A9D0BAECC65EB3547F403D9 /* SpotlightApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SpotlightApi.h; sourceTree = "<group>"; };
+		F95C209FDC1D58E7D6E34CDBAC356951 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB292711E90F4467AA6EDE1DA05297FF /* icon-close-circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-close-circle.png"; sourceTree = "<group>"; };
+		FD40BF98ACA34D3DFDEC560F77189716 /* sent-arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sent-arrow.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,16 +291,6 @@
 			path = SIOSocket;
 			sourceTree = "<group>";
 		};
-		0227B5E624578CC7EAED74B9BBFA392C /* IconCloseCircle.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				9F523D2D9A5E4401A14FCB90B43E08B7 /* Contents.json */,
-				2050799449216711FD5F0145C4164774 /* icon-close-circle.png */,
-				DBC16D58EACE112CD55C5BD4815D1196 /* icon-close-circle@2x.png */,
-			);
-			path = IconCloseCircle.imageset;
-			sourceTree = "<group>";
-		};
 		03116585B5A6F1799026ABE0D55C46FF /* OpenTok */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,58 +299,67 @@
 			path = OpenTok;
 			sourceTree = "<group>";
 		};
-		099E98FAB64E7CFD22E64B8F939EC98B /* Pod */ = {
+		0937469AB424449480E4C7F9212C19AE /* andreaphillips.xcuserdatad */ = {
 			isa = PBXGroup;
 			children = (
-				2739B45EA0D5EB00C9C700096A2EEA19 /* Assets */,
+				FC26A37C5FFF8C7A511092FFE23E45D1 /* xcschemes */,
+			);
+			path = andreaphillips.xcuserdatad;
+			sourceTree = "<group>";
+		};
+		142F08B5281AC9B68493044319644EC4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				DFE00CF0CDC59002243CE3ADC59DFCDD /* DGActivityIndicatorFiveDotsAnimation.h */,
+				2441395637A680C05265C2B48464B8BF /* DGActivityIndicatorFiveDotsAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		225A7E5270041972B7D77C1D649D3FD9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E958DA2FFDB309D5CA36D796BA2E68EB /* Assets */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		17A16460B921EF709441FC971484403E /* OTKTextChat.xcodeproj */ = {
+		2BEE27E41E0EE17AF23E42099DF080A9 /* DGActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				C2DAFA6EA2E838069CEF544132EC69BF /* project.pbxproj */,
-				52C571AEBCD5A58C58DFE25CD2794ACE /* xcuserdata */,
+				1C60CE8927D8EA4BEE2533DF419E2F15 /* DGActivityIndicatorAnimationProtocol.h */,
+				5E09B5329D9752BE1131A23A335CADC7 /* DGActivityIndicatorView.h */,
+				DCB2810746A28CE6445212266CD4A755 /* DGActivityIndicatorView.m */,
+				142F08B5281AC9B68493044319644EC4 /* Animations */,
 			);
-			path = OTKTextChat.xcodeproj;
+			path = DGActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		2739B45EA0D5EB00C9C700096A2EEA19 /* Assets */ = {
+		372CBB6FAFEED93DEE7D5BD9C2A04E1D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0BBBAFA21C28C852000FF900 /* Montserrat-Bold.ttf */,
-				0BBBAFA31C28C852000FF900 /* Montserrat-Regular.ttf */,
-				C0C54E8223DDE09D213DE46FBCC557ED /* EventCell.xib */,
-				62FF992A5BDF8148EF8D591226CEE8A6 /* EventsViewController.xib */,
-				57D92A6A07908BB52CB9B9231467A337 /* EventViewController.xib */,
-				24A3786357F6601AA26DA5D5F6D6AD7E /* MainSpotlightControllerViewController.xib */,
-				06B25CD9FE2CBEF05C07154036C6C14D /* MainSpotlightView.xib */,
-				EFC75DA2BC0D0341C7A42BCC1EDA141F /* OTKTextChatBundle */,
-				A40E0070CB157B71C9EDF48F01876D42 /* spotlightAssets.xcassets */,
-				4286FE267B476DD2960CA15896297746 /* OTKTextChatBundle */,
-				7619B474F01986B0DDE779E5F9C8791F /* spotlightAssets.xcassets */,
+				B255F9312C09788ED16E2B9737B26D88 /* Alert.h */,
+				8B078FBA85B25BC1CD68FEF06FD857E3 /* Alert.m */,
+				0FCCD3DDE2944976856A6CEDA71B6230 /* dataButton.h */,
+				EF42A3D785790774145909A4C9BF1D57 /* dataButton.m */,
+				2FFCC97B7DE4C497AE687F753129EABF /* EventsViewController.h */,
+				34A8B2533D39BCAD61CD6A1AF457D667 /* EventsViewController.m */,
+				C295C0D0BE3FEBC9FF641FCDA05AAC15 /* EventViewController.h */,
+				56AB2B8E30130248B315BEEF961BD1AA /* EventViewController.m */,
+				4D432B2BB53B17B4A0F0B6C82EDC314B /* MainSpotlightControllerViewController.h */,
+				19D111603A53CE09DB2E69378A3407D9 /* MainSpotlightControllerViewController.m */,
+				5B2097E5C9CF4F3563B1FDDE5E6FD435 /* Reachability.h */,
+				25EF547453B94690C36DCDA9D77DB4F7 /* Reachability.m */,
+				F508C4C58A9D0BAECC65EB3547F403D9 /* SpotlightApi.h */,
+				77C044A981DD02CD389B1A7510C18CED /* SpotlightApi.m */,
+				B6BA165722029EA992806A2CBDA5ADE0 /* UIColor+AppAdditions.h */,
+				5E9954E6538DF40BCB27440282DF27B9 /* UIColor+AppAdditions.m */,
+				3ECAD2D6D4787122E7DAC996E59A69FD /* UIView+EasyAutoLayout.h */,
+				21AA61756A41FFFBBBF8F70768DDC7D8 /* UIView+EasyAutoLayout.m */,
+				2BEE27E41E0EE17AF23E42099DF080A9 /* DGActivityIndicatorView */,
+				83A4D46E00AC61FE510CC0DDCA0A4649 /* OTKTextChat */,
 			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		4286FE267B476DD2960CA15896297746 /* OTKTextChatBundle */ = {
-			isa = PBXGroup;
-			children = (
-				3ECE1A411AF20B72B8B6FD17845DA011 /* icon_sendMsgArrow_052015.png */,
-				820FBEAB742A4734719ED48D67E83469 /* Info.plist */,
-				66266BBEA49BAB050350AF429BA31AF3 /* OTKTextChatComponent.xib */,
-				D6E2B5340C588363A6BA2F4D10B07BB3 /* OTKTextChatDivTableViewCell.xib */,
-				2EE4760ADFE2DAAFA7BDE62A3830A864 /* OTKTextChatRecvShortTableViewCell.xib */,
-				67B169B01F9F98C2CC9C02E3F89B046E /* OTKTextChatRecvTableViewCell.xib */,
-				A900C116358DE857BF90240465F8424A /* OTKTextChatSentShortTableViewCell.xib */,
-				E2BF14C370BF4B24F7F1E31D60BEAA5F /* OTKTextChatSentTableViewCell.xib */,
-				3958EC1EE2FE71C863DAD2194D8B5C11 /* recv-arrow.png */,
-				285F682527D951EF0CF44960A1D9D856 /* recv-arrow@2x.png */,
-				B72A7BA3D15E3A623B74110A7026E2B7 /* sent-arrow.png */,
-				0363BD48755812EC5565E9E9320AB82B /* sent-arrow@2x.png */,
-			);
-			path = OTKTextChatBundle;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		4B8149383D4297959ED4813B723CF18E /* Support Files */ = {
@@ -406,20 +373,20 @@
 			path = "../Target Support Files/SIOSocket";
 			sourceTree = "<group>";
 		};
-		52C571AEBCD5A58C58DFE25CD2794ACE /* xcuserdata */ = {
+		4E8B9FBE11B255A3C5115AAB2DEDCF13 /* OTKTextChatFramework */ = {
 			isa = PBXGroup;
 			children = (
-				53197691035DE8285187C68AFAB1B95A /* andreaphillips.xcuserdatad */,
+				F95C209FDC1D58E7D6E34CDBAC356951 /* Info.plist */,
 			);
-			path = xcuserdata;
+			path = OTKTextChatFramework;
 			sourceTree = "<group>";
 		};
-		53197691035DE8285187C68AFAB1B95A /* andreaphillips.xcuserdatad */ = {
+		568984E897613E90A39D069EA80D341D /* xcuserdata */ = {
 			isa = PBXGroup;
 			children = (
-				6F8300E8D090606E3D9FC7768618DBBB /* xcschemes */,
+				0937469AB424449480E4C7F9212C19AE /* andreaphillips.xcuserdatad */,
 			);
-			path = andreaphillips.xcuserdatad;
+			path = xcuserdata;
 			sourceTree = "<group>";
 		};
 		5C5231A526A4A34BFC64A3966762284E /* Development Pods */ = {
@@ -433,7 +400,7 @@
 		604250DA79E62A8D24FADA510D81E5AB /* Spotlight */ = {
 			isa = PBXGroup;
 			children = (
-				A5A33524F541F6F073BD98620EA4E0C6 /* Pod */,
+				BE8F0FB0BB82812BAD98FC03A4120AFF /* Pod */,
 				AA2693E855709FDB18C6798059094AFA /* Resources */,
 				C048B13F09591520246702A4E2E77735 /* Support Files */,
 			);
@@ -450,15 +417,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		654C554F75DF1D0C7154A10D879D0E71 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				5E0FD55838DE7E55BF58591DA3BB5126 /* DGActivityIndicatorFiveDotsAnimation.h */,
-				AFA6E5707FFBDDB98765867F9207AD17 /* DGActivityIndicatorFiveDotsAnimation.m */,
-			);
-			path = Animations;
-			sourceTree = "<group>";
-		};
 		65977BB963F82EA888F554BB9EC12FFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,67 +429,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F8300E8D090606E3D9FC7768618DBBB /* xcschemes */ = {
+		707761E541BC07D2DAE9BC7DDFD0F692 /* OTKTextChatLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				DFACE450B09A0004498C4906CB9A5E1F /* MakeFramework.xcscheme */,
-				CA708C2674EE07ED3B1C42003CF3B681 /* OpenTokUI.xcscheme */,
-				8BDECA9C14B86B0CF712842FA6818A58 /* OTKTextChat_library.xcscheme */,
-				51F8E26B2BB1B77F3DF0210249A65938 /* OTKTextChatBundle.xcscheme */,
-				DB394E7AED13701C085863157094B461 /* xcschememanagement.plist */,
+				75FD0CE6A000F0C044757DFAE5B77EB7 /* OTKTextChatComponent.h */,
+				DB39E69A9F28944BB58965ED17C3E315 /* OTKTextChatComponent.m */,
+				05D54C9802C8395FFE59A61AFC51B070 /* OTKTextChatTableViewCell.h */,
+				8925C305C7FE7603CA10637C48EB1A51 /* OTKTextChatTableViewCell.m */,
+				8641D6300B0514F5C379DC324CFFA09E /* OTKTextChatView.h */,
+				404A9DADC7FAF8AC46B13EAB65B48257 /* OTKTextChatView.m */,
 			);
-			path = xcschemes;
-			sourceTree = "<group>";
-		};
-		733AA3419C5BF21316378107A2498213 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A0BAB5AD7C40422191B18503D33AB90E /* Alert.h */,
-				6B09CDC77B7F87337C802B1DBE42EBB0 /* Alert.m */,
-				12844A80157B6D1783E5514E945FCBA2 /* dataButton.h */,
-				8CFE38A63A72C65C366A8FA2B658EDEB /* dataButton.m */,
-				E4E9AF4D3E161852058424DEB733AC8A /* EventsViewController.h */,
-				F4822C0404F3E1C4E54EEBBC9944FB02 /* EventsViewController.m */,
-				D5875A1490EA34D5529159DA9F3111A6 /* EventViewController.h */,
-				09CF73B54D00F41B04B2717E3BE14CF3 /* EventViewController.m */,
-				6F4AE2C2FCCBC603DD4525D652504A14 /* MainSpotlightControllerViewController.h */,
-				83FDE516C12588FCBDE9F4EA5CCD4305 /* MainSpotlightControllerViewController.m */,
-				9B030A68C6493C6D56A4176BE316A2F7 /* OTDefaultAudioDevice.h */,
-				76C6C8B7A75395AB9283DAB84FD14CB8 /* OTDefaultAudioDevice.m */,
-				C4157A365EB983E5B0ED694D78718242 /* Reachability.h */,
-				8172FAE9A063640E31BA2A0B8227D7E2 /* Reachability.m */,
-				EB9117BB179363AFB0AE78498D02840E /* SpotlightApi.h */,
-				987E179049947A259B5A3227860DAE97 /* SpotlightApi.m */,
-				E54F0C909BCE393F32D2830608F33E0D /* testClass.h */,
-				C6E1475DBCB6AF6F3202198D4EEE57DC /* testClass.m */,
-				6C0B8400734470966DC8D6121FD14CD9 /* UIColor+AppAdditions.h */,
-				7DEF4A4E28760C08841457A3F40D668E /* UIColor+AppAdditions.m */,
-				8D8565AA474DA39D2B5AFA0285DF56C8 /* UIView+EasyAutoLayout.h */,
-				FEFF31240AE9EA4C2DD6007D7581059D /* UIView+EasyAutoLayout.m */,
-				CC401068AFE47540525EE725BB740EED /* DGActivityIndicatorView */,
-				E44F2F595122747AF1FE31962CA73FF6 /* OTKTextChat */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7619B474F01986B0DDE779E5F9C8791F /* spotlightAssets.xcassets */ = {
-			isa = PBXGroup;
-			children = (
-				CB7B0488909687EF236384D87C7B08B9 /* ChatImage.imageset */,
-				EE4E50387BFA573EDA478443D4EEAC4D /* Contents.json */,
-				0E6BFF6E33F01236592E8DA66E70FB4E /* IconBack.imageset */,
-				2DDA951DE835C889815668BFB6B9A0CA /* IconCheck.imageset */,
-				DDE0C112C360F4A9E414B9CB891DB24B /* IconCheckCircle.imageset */,
-				6D764792D12F4619DA1185DE5D7E6DCA /* IconClose.imageset */,
-				F4CF9B46378E8B1D0044BCF056A30330 /* IconCloseCircle.imageset */,
-				EBBD60A30BD589B5987146F084BD1644 /* ChatImage.imageset */,
-				A2E1250203732A37D82BFB7E8B5593B4 /* IconBack.imageset */,
-				F2BFAFE726B968E64FA9421E00AB8322 /* IconCheck.imageset */,
-				C34301AAF721D2055F79AF47A6D44290 /* IconCheckCircle.imageset */,
-				A17A1FDA9C5AE96D893CA7CBB4AB527C /* IconClose.imageset */,
-				0227B5E624578CC7EAED74B9BBFA392C /* IconCloseCircle.imageset */,
-			);
-			path = spotlightAssets.xcassets;
+			path = OTKTextChatLibrary;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -546,25 +454,24 @@
 			);
 			sourceTree = "<group>";
 		};
-		8120BA098D851751FA5FE406C86C0586 /* OTKTextChatLibrary */ = {
+		818C50511285E47F28990DE48444C31A /* OTKTextChat.xcodeproj */ = {
 			isa = PBXGroup;
 			children = (
-				68D056ABAE2DA50BEA8D4A5889F40C54 /* OTKTextChatComponent.h */,
-				51F115256BEAFF39A0421DF6F48735B5 /* OTKTextChatComponent.m */,
-				F9F539FBECFFCD8752DDF7348D9390AF /* OTKTextChatTableViewCell.h */,
-				D83A949BD05596BBA9FECCDBD0950145 /* OTKTextChatTableViewCell.m */,
-				05D6034B9C44A7AC3F55C4E27359C80A /* OTKTextChatView.h */,
-				653EA701DBF30C86E5B1673888443234 /* OTKTextChatView.m */,
+				D426E19D9D93A365F9D0AA93238946FE /* project.pbxproj */,
+				568984E897613E90A39D069EA80D341D /* xcuserdata */,
 			);
-			path = OTKTextChatLibrary;
+			path = OTKTextChat.xcodeproj;
 			sourceTree = "<group>";
 		};
-		89A3388A2296CF68ADC92E1AD3A8CC7F /* OTKTextChatFramework */ = {
+		83A4D46E00AC61FE510CC0DDCA0A4649 /* OTKTextChat */ = {
 			isa = PBXGroup;
 			children = (
-				15002D2437971D2E06DD3BED47817D10 /* Info.plist */,
+				A7A52FC46D464E79C6CFEBF02661B314 /* README.md */,
+				818C50511285E47F28990DE48444C31A /* OTKTextChat.xcodeproj */,
+				4E8B9FBE11B255A3C5115AAB2DEDCF13 /* OTKTextChatFramework */,
+				707761E541BC07D2DAE9BC7DDFD0F692 /* OTKTextChatLibrary */,
 			);
-			path = OTKTextChatFramework;
+			path = OTKTextChat;
 			sourceTree = "<group>";
 		};
 		89FA876B96E98F69F81289A434B9A658 /* Targets Support Files */ = {
@@ -591,39 +498,10 @@
 			path = "Target Support Files/Pods-Spotlight_Example";
 			sourceTree = "<group>";
 		};
-		A17A1FDA9C5AE96D893CA7CBB4AB527C /* IconClose.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				A1066048AD4A48B71E6DBA13961082EA /* Contents.json */,
-				A10A0ABF5ABAFCEF859722B2FE815A90 /* icon-close.png */,
-				DB63EC6593C505F67078A603FA3C48A6 /* icon-close@2x.png */,
-			);
-			path = IconClose.imageset;
-			sourceTree = "<group>";
-		};
-		A2E1250203732A37D82BFB7E8B5593B4 /* IconBack.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				85F75BB0366BE76FC62CF305F1B8D9C7 /* BackArrow.png */,
-				ECCD2DD4487770CA2557A34C852D043F /* BackArrow-1.png */,
-				1A96A0800A9CF86153951545742914EF /* BackArrow-2.png */,
-				CF64C49A9A7E06B47B175BD670E14CA7 /* Contents.json */,
-			);
-			path = IconBack.imageset;
-			sourceTree = "<group>";
-		};
-		A5A33524F541F6F073BD98620EA4E0C6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				733AA3419C5BF21316378107A2498213 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		AA2693E855709FDB18C6798059094AFA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				099E98FAB64E7CFD22E64B8F939EC98B /* Pod */,
+				225A7E5270041972B7D77C1D649D3FD9 /* Pod */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -634,6 +512,14 @@
 				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8F0FB0BB82812BAD98FC03A4120AFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				372CBB6FAFEED93DEE7D5BD9C2A04E1D /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
@@ -663,46 +549,43 @@
 			path = "Example/Pods/Target Support Files/Spotlight";
 			sourceTree = "<group>";
 		};
-		C34301AAF721D2055F79AF47A6D44290 /* IconCheckCircle.imageset */ = {
+		E958DA2FFDB309D5CA36D796BA2E68EB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0AD38E2099CF97903CF02EB80D423401 /* Contents.json */,
-				F813D1638C0554BA733661FEFD3139D6 /* icon-check-circle.png */,
-				E9BF89589B38952EE8E008AE0AB1C4D0 /* icon-check-circle@2x.png */,
+				0BBBAFBA1C29CFA7000FF900 /* bg-graphic.png */,
+				31FCBCEE0198CEBAAE6AA5C5D57E4ECE /* BackArrow.png */,
+				CA46B44B75481A384DD7C9163E9EA98D /* BackArrow-1.png */,
+				4C9C36B18681A071D0B134E2F6E6C524 /* BackArrow-2.png */,
+				F31996F0C10A6CF73CACFA4154190CEF /* EventCell.xib */,
+				340770D4CACB6BFF3E12FDD0A008164B /* EventsViewController.xib */,
+				7E72610935413FA287295D22DB644BF9 /* EventViewController.xib */,
+				DAAA5A87C5B6043B4F0E26E1FF8FAEA2 /* icon-bubble.png */,
+				89D87D67384750734BA12A5F1EB62D35 /* icon-bubble@2x.png */,
+				39E36462E83D955D0DE2C94B9A445677 /* icon-check.png */,
+				74B1A0C074B24994313E946D81AAB9BB /* icon-check-circle.png */,
+				B6F1D7A081DA38CF1CD30301F606F19E /* icon-check-circle@2x.png */,
+				9B8C194D150F0E1E5F967762729CBB11 /* icon-check@2x.png */,
+				3EA06DB5F136444B706CB78F58FDC172 /* icon-close.png */,
+				FB292711E90F4467AA6EDE1DA05297FF /* icon-close-circle.png */,
+				0A364A7B345ACA06F36DC5DEFD62BCDE /* icon-close-circle@2x.png */,
+				5F26BE9CED7CA77800F7B2A5914F562C /* icon-close@2x.png */,
+				87393A706DAA3E13E11DB50D0F2625D1 /* icon_sendMsgArrow_052015.png */,
+				D0D3186A92EE9FEF2956B989DB986108 /* MainSpotlightControllerViewController.xib */,
+				A74CCF42EE0360E0725822F2A5637DC9 /* MainSpotlightView.xib */,
+				C2E405ECFDDB728D3F3FC13C22DA22B4 /* Montserrat-Bold.ttf */,
+				26AF7E6847DB44305198BFBDD0AA32EF /* Montserrat-Regular.ttf */,
+				30108FA1184818DADC1FF91F65961443 /* OTKTextChatComponent.xib */,
+				AC695D4012D9E9E2C15609FEACD9240A /* OTKTextChatDivTableViewCell.xib */,
+				80E91C729F1BBE2CEA2AAE66798EA861 /* OTKTextChatRecvShortTableViewCell.xib */,
+				0258772A0DE7E6427A0BFCE337384C3F /* OTKTextChatRecvTableViewCell.xib */,
+				F23F5C33B982BFC2A621108DDC92F0DB /* OTKTextChatSentShortTableViewCell.xib */,
+				2A66C3EC4D68DA019C41B510B7309065 /* OTKTextChatSentTableViewCell.xib */,
+				5A5BBE25E55A9E24A19D8D6B0BD69A67 /* recv-arrow.png */,
+				12CA95F670E9DCCFFE18D4D8347E9284 /* recv-arrow@2x.png */,
+				FD40BF98ACA34D3DFDEC560F77189716 /* sent-arrow.png */,
+				F237E1AF8165C1D4041CC2351AC683EF /* sent-arrow@2x.png */,
 			);
-			path = IconCheckCircle.imageset;
-			sourceTree = "<group>";
-		};
-		CC401068AFE47540525EE725BB740EED /* DGActivityIndicatorView */ = {
-			isa = PBXGroup;
-			children = (
-				4451E98F1AF233C22544313C35E46BF5 /* DGActivityIndicatorAnimationProtocol.h */,
-				3805CFE8DB272D3F900D56BA1203FA08 /* DGActivityIndicatorView.h */,
-				5A1B0CE94246EF14C201A274C8A026BA /* DGActivityIndicatorView.m */,
-				654C554F75DF1D0C7154A10D879D0E71 /* Animations */,
-			);
-			path = DGActivityIndicatorView;
-			sourceTree = "<group>";
-		};
-		E44F2F595122747AF1FE31962CA73FF6 /* OTKTextChat */ = {
-			isa = PBXGroup;
-			children = (
-				AFDA4A553053BF5E41521F8306A0239A /* README.md */,
-				17A16460B921EF709441FC971484403E /* OTKTextChat.xcodeproj */,
-				89A3388A2296CF68ADC92E1AD3A8CC7F /* OTKTextChatFramework */,
-				8120BA098D851751FA5FE406C86C0586 /* OTKTextChatLibrary */,
-			);
-			path = OTKTextChat;
-			sourceTree = "<group>";
-		};
-		EBBD60A30BD589B5987146F084BD1644 /* ChatImage.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				7CBBA03BAB6EB5C5E0876D562213C412 /* Contents.json */,
-				3D54B1F4E989AFC0B3AEB0C65B8583C8 /* icon-bubble.png */,
-				A004C9EEDF80735E05EA8C242187646B /* icon-bubble@2x.png */,
-			);
-			path = ChatImage.imageset;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		EE6215F0432C64D1DABBAF34FA057BE6 /* Pods-Spotlight_Tests */ = {
@@ -720,49 +603,49 @@
 			path = "Target Support Files/Pods-Spotlight_Tests";
 			sourceTree = "<group>";
 		};
-		F2BFAFE726B968E64FA9421E00AB8322 /* IconCheck.imageset */ = {
+		FC26A37C5FFF8C7A511092FFE23E45D1 /* xcschemes */ = {
 			isa = PBXGroup;
 			children = (
-				4A3B6E45DF8B77B6A497541A740B0AE9 /* Contents.json */,
-				2FA39739DD36601DB48819F1E3D25D75 /* icon-check.png */,
-				AA7814658E43B2FA3ED1F9F1F582276F /* icon-check@2x.png */,
+				EAFB54B7DC8C4C1B2431F8D22408EB9C /* MakeFramework.xcscheme */,
+				47A76E42DA948D553CDCCED159B20DF2 /* OpenTokUI.xcscheme */,
+				33501EE5EE8D53D5701615148899FF4E /* OTKTextChat_library.xcscheme */,
+				9297E433E3F0949538E031BC99AA0E59 /* OTKTextChatBundle.xcscheme */,
+				62D3ECBD1E53FF0D8A53056FBD83110E /* xcschememanagement.plist */,
 			);
-			path = IconCheck.imageset;
+			path = xcschemes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0147B7A39A2F0B8FB4B461004EF8FA55 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA8DEB45F809852216B66513AB4AA128 /* Alert.h in Headers */,
-				BD0D4F0D2C18135D1F742D7D550784B8 /* dataButton.h in Headers */,
-				4D15C7512774848B24EFF16F84EBD7A3 /* DGActivityIndicatorAnimationProtocol.h in Headers */,
-				E339996BAD0DCFB4B983FB21645244F9 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */,
-				365CC174A2F1B329640F805647C4339A /* DGActivityIndicatorView.h in Headers */,
-				68187B1DDA275EEE2B6B59FF9D47EDF6 /* EventsViewController.h in Headers */,
-				45A685F28F9DAE6E8BF5E27DCF2592FD /* EventViewController.h in Headers */,
-				207A6B2618FF68087E97DD8A01A6CAF1 /* MainSpotlightControllerViewController.h in Headers */,
-				9EA12625B875C08934DC007722D093E5 /* OTDefaultAudioDevice.h in Headers */,
-				9341BBCDA5449362C47F9F7761759D12 /* OTKTextChatComponent.h in Headers */,
-				AD238E09CDBE997F65FD2F08849FBA81 /* OTKTextChatTableViewCell.h in Headers */,
-				C7CA891A565680E7D833BADB7B1D7EBA /* OTKTextChatView.h in Headers */,
-				39D220BFD17C3426CD8C56C6D665DB92 /* Reachability.h in Headers */,
-				90FE65EE034B125422769C671703514D /* SpotlightApi.h in Headers */,
-				BE904957962F685A66630301396E959E /* testClass.h in Headers */,
-				43ECA42BAE3E0EF44836423602A9C511 /* UIColor+AppAdditions.h in Headers */,
-				303FACA3F1E6657EAE6F529104EB91BE /* UIView+EasyAutoLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		248EEE850366D7D4421C3B0D6CA5FBEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E54994246E16CE19A3B3B0FDC8F9A34C /* SIOSocket.h in Headers */,
 				512FB79CB869D5B0FB761FCBB09ACD3B /* socket.io.js.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B28FE7EC6FE44253819F93432714D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C129C3776CFB5E947A8EA9F15A86D875 /* Alert.h in Headers */,
+				540C6E4568C4D4B04B1DBE6899DDB909 /* dataButton.h in Headers */,
+				AA2BDCDC13C3301A16912D9F9C8A8E94 /* DGActivityIndicatorAnimationProtocol.h in Headers */,
+				96754BEEF503DA03C2193E9FB20C306A /* DGActivityIndicatorFiveDotsAnimation.h in Headers */,
+				7CF2E862FF443A64F4E0776049C261CE /* DGActivityIndicatorView.h in Headers */,
+				5C1A7196B146BCD30F9DC1860B7C2F02 /* EventsViewController.h in Headers */,
+				AF45709A443625C3708717ED27BCB336 /* EventViewController.h in Headers */,
+				2F8FF231777CBB09600BDD281FC13095 /* MainSpotlightControllerViewController.h in Headers */,
+				333ABA230AF412B86193BC90864211BA /* OTKTextChatComponent.h in Headers */,
+				8F0957553E3215F5711E54F8F794B4D3 /* OTKTextChatTableViewCell.h in Headers */,
+				C7A0AD688CB86F4882A4F55B56A69751 /* OTKTextChatView.h in Headers */,
+				E366AC37EF8128EB24D991296B607E2B /* Reachability.h in Headers */,
+				05B99E7378B51098386E2BF0BB0A799D /* SpotlightApi.h in Headers */,
+				C3607B4C0721462CC5F3BD0C7737EDD7 /* UIColor+AppAdditions.h in Headers */,
+				23236EFF8DF58B53173A08BB78F917C3 /* UIView+EasyAutoLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,7 +658,7 @@
 			buildPhases = (
 				F0F3050F6C88BE135F22B3A1BA0A8DA4 /* Sources */,
 				AC25DD6EEB14E940D4A23C14243DBBDF /* Frameworks */,
-				7FCD72F87091C36ECC9E582B3A78197E /* Resources */,
+				21DAF4DF8C1604F18FFD7F60CA09DB04 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -807,9 +690,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5832583C9915DF58F340E4E5F4065C6B /* Build configuration list for PBXNativeTarget "Spotlight" */;
 			buildPhases = (
-				8F7CCF5DC483104A5477F2514A055D07 /* Sources */,
+				117FED4ED6E25EF8283DE180D83A78FD /* Sources */,
 				24C87877AB36623E267D6B326D4AAF9A /* Frameworks */,
-				0147B7A39A2F0B8FB4B461004EF8FA55 /* Headers */,
+				A0B28FE7EC6FE44253819F93432714D1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -889,64 +772,78 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FCD72F87091C36ECC9E582B3A78197E /* Resources */ = {
+		21DAF4DF8C1604F18FFD7F60CA09DB04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBBAFA51C28C852000FF900 /* Montserrat-Regular.ttf in Resources */,
-				2F0A203F2AD44ACB740F58272C93E29A /* BackArrow-1.png in Resources */,
-				059BC267A84C5CE63FE21D45B67FA0AB /* BackArrow-2.png in Resources */,
-				9AA517429ED816CF1C89AAD47198ED73 /* BackArrow.png in Resources */,
-				9C95D1EF4F9928216BC2297B57B28D7B /* ChatImage.imageset in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				9CB06CCBB21B81F6CA34F4B185D4EAB5 /* Contents.json in Resources */,
-				8B33DAF14414008EE01B8EBAAA86C1A2 /* EventCell.xib in Resources */,
-				60AD33643E3D173E3F2301E40B61E0F6 /* EventsViewController.xib in Resources */,
-				A15198089CCEAB6FB05F295FE5C4FE25 /* EventViewController.xib in Resources */,
-				051F37B56CB24E67DF063009A382C59E /* icon-bubble.png in Resources */,
-				E17E41DD520B0769A141D11B7B5C0B13 /* icon-bubble@2x.png in Resources */,
-				CDA498857494B189C1A6018EC9242C32 /* icon-check-circle.png in Resources */,
-				F97C556DE9A66A4DD6C35A6B08FBB322 /* icon-check-circle@2x.png in Resources */,
-				2E54AF3B38CBA622990DC101258D5AF8 /* icon-check.png in Resources */,
-				A1D6F6932745FE1FDB06A300B5802646 /* icon-check@2x.png in Resources */,
-				221763AC351B7F1D29CCFD2619C75AB3 /* icon-close-circle.png in Resources */,
-				D98714ED36705CB1A979038608E1FD61 /* icon-close-circle@2x.png in Resources */,
-				C2919D4605BE75FDD4D6DAC53669D180 /* icon-close.png in Resources */,
-				DD7619FCA859EC5294A5C53943B62765 /* icon-close@2x.png in Resources */,
-				B02979DA2AC9DFF7F35FE80413B0517A /* icon_sendMsgArrow_052015.png in Resources */,
-				446062F1B887156B2765122307D79E64 /* IconBack.imageset in Resources */,
-				945861F835A292933F90DD861F5924AC /* IconCheck.imageset in Resources */,
-				E40358A08C4DDD4D5E07E012814424EB /* IconCheckCircle.imageset in Resources */,
-				EF9EDAE3704981B6D079F4C81FE42912 /* IconClose.imageset in Resources */,
-				7260F182F079FBA2435E388DBE9143AD /* IconCloseCircle.imageset in Resources */,
-				21555FB6F4289141DE0D3E9A4A4BDD08 /* Info.plist in Resources */,
-				21555FB6F4289141DE0D3E9A4A4BDD08 /* Info.plist in Resources */,
-				CDF8B8250CACA16BDB34C3F417A9CBC1 /* MainSpotlightControllerViewController.xib in Resources */,
-				8C01C2BC14B1548853A35DA901801C4D /* MainSpotlightView.xib in Resources */,
-				8A449677CB67EDB542FEF8F6CF851C0E /* OTKTextChatBundle in Resources */,
-				B7B85B9B556FE0219C82BC6EB505374B /* OTKTextChatComponent.xib in Resources */,
-				9C0D37CF9C44877989D5CC18A45107DA /* OTKTextChatDivTableViewCell.xib in Resources */,
-				60E045180A5F68AF9A5DF2660AEE63CB /* OTKTextChatRecvShortTableViewCell.xib in Resources */,
-				533A1471382D70FF6ADD96E36BF81E0F /* OTKTextChatRecvTableViewCell.xib in Resources */,
-				D632282A5935350F34EA47D01F2D6EA4 /* OTKTextChatSentShortTableViewCell.xib in Resources */,
-				0BBBAFA41C28C852000FF900 /* Montserrat-Bold.ttf in Resources */,
-				F44AF1208B3C3984E0C2028DBE349963 /* OTKTextChatSentTableViewCell.xib in Resources */,
-				AF3098718DD39276C584213145CE5C09 /* recv-arrow.png in Resources */,
-				C6FE7830D9D109E5B4BAB1218058809F /* recv-arrow@2x.png in Resources */,
-				5AD7A70D3A474736904122BCFD01C575 /* sent-arrow.png in Resources */,
-				B7DCB64AAC8F81860C95546971FD4C67 /* sent-arrow@2x.png in Resources */,
-				6561715852862749E17F0AD491C67B80 /* spotlightAssets.xcassets in Resources */,
+				188E974DAF9071D94E999AF53321086C /* BackArrow-1.png in Resources */,
+				EA5C8E9CB149848D3CDDCBB9601C938D /* BackArrow-2.png in Resources */,
+				0D22CB3CFB52582DD97C58C7884CE8B2 /* BackArrow.png in Resources */,
+				EC3B8C2CFE2434E87A6C6C610250FE46 /* EventCell.xib in Resources */,
+				F64E5AEFEE32B4E986600DE0B7AC2FCA /* EventsViewController.xib in Resources */,
+				2C4297CA14A80A204CDDC820EFAB2AC7 /* EventViewController.xib in Resources */,
+				1153C00C31A4E99996941A4EF654FB31 /* icon-bubble.png in Resources */,
+				FD3398BF5B6B8C52893570FDC876ED5E /* icon-bubble@2x.png in Resources */,
+				B54091CAA059B1CCCE91E68611DAFCD5 /* icon-check-circle.png in Resources */,
+				1981B3E947F3D252E87B0C54B15356B1 /* icon-check-circle@2x.png in Resources */,
+				A528AF95467616BDBD05E88CD3498328 /* icon-check.png in Resources */,
+				A152AB442F3E929AB3C2D21CCDBCA38C /* icon-check@2x.png in Resources */,
+				F2A998AA45596F0438B165AAD787BF78 /* icon-close-circle.png in Resources */,
+				FA3C67384805772EF95B9FB438775B87 /* icon-close-circle@2x.png in Resources */,
+				EEBBF243119FED23174172A5AFD0CF69 /* icon-close.png in Resources */,
+				D34A45B2094B8C62597836A0EED98F46 /* icon-close@2x.png in Resources */,
+				8B253F5B1CD2882D76A8A0F86F3F59B6 /* icon_sendMsgArrow_052015.png in Resources */,
+				7679094062616FC500E616F7C88A429B /* MainSpotlightControllerViewController.xib in Resources */,
+				75FB8A7FE3B281CBAE8A4C51AD7BEDBC /* MainSpotlightView.xib in Resources */,
+				60AD2A96CC665DC15A2130E72D49BFC5 /* Montserrat-Bold.ttf in Resources */,
+				EC18AD15718A08FE510ECBFBAA783D95 /* Montserrat-Regular.ttf in Resources */,
+				0BBBAFBB1C29CFA7000FF900 /* bg-graphic.png in Resources */,
+				90DEF9C04238FB985166389A47DCDC36 /* OTKTextChatComponent.xib in Resources */,
+				76B8BCFC2E06A1DF05903B3E9FEC0051 /* OTKTextChatDivTableViewCell.xib in Resources */,
+				48F7044F322DD6D5EE37859B406A3D55 /* OTKTextChatRecvShortTableViewCell.xib in Resources */,
+				E6397699465590C031F742C80C114218 /* OTKTextChatRecvTableViewCell.xib in Resources */,
+				CB34FD4A40F4BA10539F95E69E32ADD3 /* OTKTextChatSentShortTableViewCell.xib in Resources */,
+				A5FC706B673286AB3C67EBA12629501D /* OTKTextChatSentTableViewCell.xib in Resources */,
+				89924007B2D367498156136C84397074 /* recv-arrow.png in Resources */,
+				81F926C9B288802BFE30F305BF78A244 /* recv-arrow@2x.png in Resources */,
+				105F7CB2894FBDD15743183720DD7772 /* sent-arrow.png in Resources */,
+				1FDE55CEECC1126B1566C3EAFA6FE517 /* sent-arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		117FED4ED6E25EF8283DE180D83A78FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C836CC2B89B3A7604F64CCD1BD4681 /* Alert.m in Sources */,
+				23646B19F298BB1268375FBDED21D523 /* dataButton.m in Sources */,
+				84D9194F8F75EE4EA0A6D9FCCAAC4351 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
+				26BFB6445F6F507FC096E24A099BA269 /* DGActivityIndicatorView.m in Sources */,
+				2F974A336803094FC0450AA6CD93D51D /* EventsViewController.m in Sources */,
+				CABB81FBC84DBF60CD24E242C13C8B5B /* EventViewController.m in Sources */,
+				E2919CFEA70F28EC44FF25CD5C5C34DD /* Info.plist in Sources */,
+				F734E8406310C5710925754D39B16D83 /* MainSpotlightControllerViewController.m in Sources */,
+				CAF67441594049F35115EE046C3AB880 /* MakeFramework.xcscheme in Sources */,
+				0AA9D24DE19C2CEE71252A7B0359DF00 /* OpenTokUI.xcscheme in Sources */,
+				6DDC9948DF7F17C438D4F2D1492AF87F /* OTKTextChat_library.xcscheme in Sources */,
+				B8A4A5ABB09F69729EAAB0CCFACED4E6 /* OTKTextChatBundle.xcscheme in Sources */,
+				A55EA54D23CD806DBFF67CDEEE46F355 /* OTKTextChatComponent.m in Sources */,
+				83C22368BF1ABE3264DBEBE22012811E /* OTKTextChatTableViewCell.m in Sources */,
+				C538B6CE02B266056CB2C5DFF846394A /* OTKTextChatView.m in Sources */,
+				D5BEB8BB3D20CF45E6A74B0942F1B955 /* project.pbxproj in Sources */,
+				1CEE29F8F836F40FA740AAEBF3FC8287 /* Reachability.m in Sources */,
+				E73AC57E7DB0BCD26B072373B3CE35B9 /* README.md in Sources */,
+				1F7D3D28090AB67C3E5549CA5BB59983 /* Spotlight-dummy.m in Sources */,
+				F27F5EFA1E0A950D357D387F794F4EFB /* SpotlightApi.m in Sources */,
+				132657579EECE92B140F1AEE301F9F95 /* UIColor+AppAdditions.m in Sources */,
+				AC9B75EF932C08892EB11E25D7649643 /* UIView+EasyAutoLayout.m in Sources */,
+				025C8ED4BBA0592728F9B868304532C5 /* xcschememanagement.plist in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1AE780B3FD7E76E7A401F046086EC5E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -961,38 +858,6 @@
 			files = (
 				AAA36F13510A67CC172E86ACFF397C7C /* SIOSocket-dummy.m in Sources */,
 				96C0449BF37890B34CFFAFF33DF58FFD /* SIOSocket.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F7CCF5DC483104A5477F2514A055D07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80470CBCD85B41EAFFF5CA95ED2ADD89 /* Alert.m in Sources */,
-				CF8D4B8EFCB3EA19929B6AE4D397DAC9 /* dataButton.m in Sources */,
-				6DB28880A9FCF474FEA96050DCE31AA2 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
-				7BE65039A4E44A08DC2BBEE92DE3EB5B /* DGActivityIndicatorView.m in Sources */,
-				D5F25497714F66B3D147B36F321C683B /* EventsViewController.m in Sources */,
-				31D91F61C10B3A267780B55FC7DF88AD /* EventViewController.m in Sources */,
-				E2DCECAAB5AFB7BB55702DA5A6479767 /* Info.plist in Sources */,
-				501167D0A8C1DAF05EEA9B4A2C36553F /* MainSpotlightControllerViewController.m in Sources */,
-				C218FDFC455A38A3A9BF58DFE00238C5 /* MakeFramework.xcscheme in Sources */,
-				4B2A02D9836670A4E78321E6CCC19886 /* OpenTokUI.xcscheme in Sources */,
-				78302F8363C7E62BF862AAFBD12DDE30 /* OTDefaultAudioDevice.m in Sources */,
-				2D176DA0067E762C97748AD495422560 /* OTKTextChat_library.xcscheme in Sources */,
-				4C73212CDBB22D926BF22BDCB108ABBB /* OTKTextChatBundle.xcscheme in Sources */,
-				C3236BF78B68F1C46C1A6CE0067ED3C2 /* OTKTextChatComponent.m in Sources */,
-				F57D5A5E192017B2176C13597651C7B1 /* OTKTextChatTableViewCell.m in Sources */,
-				29AB2D611D848765D1F0BA0BAE7FE86B /* OTKTextChatView.m in Sources */,
-				FF6032A7F6F6CC3311D6170D43FB1DCA /* project.pbxproj in Sources */,
-				944C8374FF00AB477C83A38653D68B4A /* Reachability.m in Sources */,
-				461CC7D6F2348130E9BC3AE9895346A4 /* README.md in Sources */,
-				286F5EEE70E2DA0F1A589C0F5BBEDABF /* Spotlight-dummy.m in Sources */,
-				F1337F05CF097ADCB1478541EDCABEDB /* SpotlightApi.m in Sources */,
-				6178B3E64C2A57B44BDF8650DC410917 /* testClass.m in Sources */,
-				86C83C0B0B38DF962265D30F387620E5 /* UIColor+AppAdditions.m in Sources */,
-				C8B9567CA84377AE2703B5DA363A24E2 /* UIView+EasyAutoLayout.m in Sources */,
-				636CDF55C70A653E204E76828A4535CA /* xcschememanagement.plist in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

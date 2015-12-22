@@ -105,16 +105,17 @@ static NSString* const kTextChatType = @"chatMessage";
 -(void)viewDidLoad {
     
     [super viewDidLoad];
+    isLive = NO;
     self.connectionData = [[SpotlightApi sharedInstance] creteEventToken: self.user[@"type"]  data:self.eventData];
     if(self.connectionData){
         self.eventData = [self.connectionData[@"event"] mutableCopy];
+        [self statusChanged];
         [self loadUser];
     }
     [self.statusBar setBackgroundColor: [UIColor BarColor]];
     
     screen = [UIScreen mainScreen].bounds;
     screen_width = CGRectGetWidth(screen);
-    isLive = NO;
     
     videoViews = [[NSMutableDictionary alloc] init];
     videoViews[@"fan"] = self.FanViewHolder;
@@ -1298,11 +1299,12 @@ didFailWithError:(OTError*)error
     
     [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
     [self.presentingViewController dismissViewControllerAnimated:NO completion:NULL];
-    //if(isSingleEvent){
+    
+    if(isSingleEvent){
         [[NSNotificationCenter defaultCenter] postNotificationName:@"dismissMainController"
                                                             object:nil
                                                           userInfo:nil];
-    //}
+    }
 }
 
 

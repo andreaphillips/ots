@@ -18,7 +18,7 @@
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "Bundle": [
-      "Pod/Assets/**/*"
+      "Pod/Assets/**/**/*"
     ]
   },
   "dependencies": {

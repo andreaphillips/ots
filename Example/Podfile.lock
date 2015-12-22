@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   OpenTok: 56dbc82766bd925d7b19c4b4468534014eace65d
   SIOSocket: 2facc0bd02ae72d98c223634a46dd8ebdf9be321
-  Spotlight: c4bbec9f9dafddf6baa8bd324ddc25201a7db85e
+  Spotlight: f0a04fb7d2ca623cb0ecd15da1e42bd38ef9c815
 
 COCOAPODS: 0.39.0

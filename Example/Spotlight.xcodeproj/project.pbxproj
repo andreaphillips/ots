@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBBAF7C1C247C3D000FF900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBAF7B1C247C3D000FF900 /* ViewController.m */; };
+		0BBBAFA81C29BD5B000FF900 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFA71C29BD5B000FF900 /* LaunchScreen.xib */; };
+		0BBBAFAD1C29BE7C000FF900 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFAC1C29BE7C000FF900 /* Images.xcassets */; };
+		0BBBAFB41C29BED6000FF900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBAFAF1C29BED6000FF900 /* ViewController.m */; };
+		0BBBAFB51C29BED6000FF900 /* MultipleEventsExampleControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBAFB11C29BED6000FF900 /* MultipleEventsExampleControllerViewController.m */; };
+		0BBBAFB61C29BED6000FF900 /* ExampleEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFB21C29BED6000FF900 /* ExampleEventCell.xib */; };
+		0BBBAFB71C29BED6000FF900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBAFB31C29BED6000FF900 /* Main.storyboard */; };
 		497C11FAE1FFBC42E3D935D5 /* libPods-Spotlight_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6875B1A7C60E3CA417A5951F /* libPods-Spotlight_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -15,13 +20,11 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* spotlightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* spotlightAppDelegate.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F5EFF625DA691842F96D870B /* libPods-Spotlight_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE48D373B17F04619FD6553 /* libPods-Spotlight_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BBBAF7A1C247C3D000FF900 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0BBBAF7B1C247C3D000FF900 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BBBAFA71C29BD5B000FF900 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		0BBBAFA91C29BDBE000FF900 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		0BBBAFAA1C29BDBE000FF900 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		0BBBAFAC1C29BE7C000FF900 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BBBAFAE1C29BED6000FF900 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BBBAFAF1C29BED6000FF900 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BBBAFB01C29BED6000FF900 /* MultipleEventsExampleControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleEventsExampleControllerViewController.h; sourceTree = "<group>"; };
+		0BBBAFB11C29BED6000FF900 /* MultipleEventsExampleControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleEventsExampleControllerViewController.m; sourceTree = "<group>"; };
+		0BBBAFB21C29BED6000FF900 /* ExampleEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleEventCell.xib; sourceTree = "<group>"; };
+		0BBBAFB31C29BED6000FF900 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		52384880B10A76128374A0A5 /* Pods-Spotlight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlight_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spotlight_Example/Pods-Spotlight_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Spotlight_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotlight_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,7 +60,6 @@
 		6003F59B195388D20070C39A /* Spotlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spotlight-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* spotlightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spotlightAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* spotlightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spotlightAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* Spotlight_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spotlight_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -57,7 +67,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6875B1A7C60E3CA417A5951F /* libPods-Spotlight_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spotlight_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		95AF9794236E9A1085CB0565 /* Pods-Spotlight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlight_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spotlight_Tests/Pods-Spotlight_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9E7943E68A6AC06ADCDEBF94 /* Pods-Spotlight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlight_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spotlight_Tests/Pods-Spotlight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9BC460486E47790134FCD7A /* Pods-Spotlight_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlight_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spotlight_Example/Pods-Spotlight_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BBBAFAB1C29BDC5000FF900 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0BBBAFA91C29BDBE000FF900 /* Montserrat-Bold.ttf */,
+				0BBBAFAA1C29BDBE000FF900 /* Montserrat-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -130,12 +148,17 @@
 		6003F593195388D20070C39A /* Example for Spotlight */ = {
 			isa = PBXGroup;
 			children = (
+				0BBBAFA71C29BD5B000FF900 /* LaunchScreen.xib */,
+				0BBBAFAB1C29BDC5000FF900 /* Fonts */,
 				6003F59C195388D20070C39A /* spotlightAppDelegate.h */,
 				6003F59D195388D20070C39A /* spotlightAppDelegate.m */,
-				0BBBAF7A1C247C3D000FF900 /* ViewController.h */,
-				0BBBAF7B1C247C3D000FF900 /* ViewController.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				0BBBAFAE1C29BED6000FF900 /* ViewController.h */,
+				0BBBAFAF1C29BED6000FF900 /* ViewController.m */,
+				0BBBAFB01C29BED6000FF900 /* MultipleEventsExampleControllerViewController.h */,
+				0BBBAFB11C29BED6000FF900 /* MultipleEventsExampleControllerViewController.m */,
+				0BBBAFB21C29BED6000FF900 /* ExampleEventCell.xib */,
+				0BBBAFB31C29BED6000FF900 /* Main.storyboard */,
+				0BBBAFAC1C29BE7C000FF900 /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for Spotlight";
@@ -276,9 +299,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0BBBAFA81C29BD5B000FF900 /* LaunchScreen.xib in Resources */,
+				0BBBAFB71C29BED6000FF900 /* Main.storyboard in Resources */,
+				0BBBAFAD1C29BE7C000FF900 /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				0BBBAFB61C29BED6000FF900 /* ExampleEventCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +415,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBBAFB41C29BED6000FF900 /* ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* spotlightAppDelegate.m in Sources */,
-				0BBBAF7C1C247C3D000FF900 /* ViewController.m in Sources */,
+				0BBBAFB51C29BED6000FF900 /* MultipleEventsExampleControllerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +538,7 @@
 			baseConfigurationReference = C9BC460486E47790134FCD7A /* Pods-Spotlight_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spotlight/Spotlight-Prefix.pch";
 				INFOPLIST_FILE = "Spotlight/Spotlight-Info.plist";
@@ -529,7 +555,7 @@
 			baseConfigurationReference = 52384880B10A76128374A0A5 /* Pods-Spotlight_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spotlight/Spotlight-Prefix.pch";
 				INFOPLIST_FILE = "Spotlight/Spotlight-Info.plist";

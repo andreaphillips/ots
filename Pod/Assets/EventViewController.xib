@@ -35,24 +35,20 @@
                 <outlet property="chatBtn" destination="sgd-9K-em0" id="yc3-Kv-t36"/>
                 <outlet property="closeChat" destination="fgA-0L-GnS" id="5wc-3u-cwV"/>
                 <outlet property="closeEvenBtn" destination="jgu-Fc-pWM" id="oIM-90-yKY"/>
-                <outlet property="closeNamePrompt" destination="CtA-GY-yeq" id="lrC-he-Kgj"/>
                 <outlet property="countdownNumber" destination="zxB-cu-RQk" id="Lb9-4k-kai"/>
                 <outlet property="countdownView" destination="uS9-jv-Nux" id="Ip7-Nw-Oh6"/>
                 <outlet property="dismissInline" destination="2eW-aR-FL2" id="62Z-3N-5fj"/>
                 <outlet property="eventImage" destination="3OI-XM-flL" id="kQ8-UC-YNm"/>
                 <outlet property="eventName" destination="HMb-Rp-gdV" id="NfD-q8-8EM"/>
                 <outlet property="getInLineBtn" destination="0X6-Ae-NUS" id="VAe-pH-vdx"/>
-                <outlet property="getInLineName" destination="BZl-gp-w6B" id="sIc-rM-MmV"/>
                 <outlet property="inLineHolder" destination="65j-ak-aqS" id="0kf-ow-hH2"/>
                 <outlet property="inlineNotification" destination="UPr-Sn-B7a" id="yA1-5a-cek"/>
                 <outlet property="internalHolder" destination="fJu-a8-Zwd" id="Nmb-6v-wOZ"/>
                 <outlet property="leaveLineBtn" destination="tJ3-U1-PiD" id="kDv-kN-qfm"/>
-                <outlet property="namePrompt" destination="Pie-Q4-ZSD" id="X17-mj-IpH"/>
                 <outlet property="notificationBar" destination="LTX-cC-jKo" id="Fey-4m-MKN"/>
                 <outlet property="notificationLabel" destination="7t4-cZ-Lbj" id="rcb-vO-4gt"/>
                 <outlet property="statusBar" destination="JrU-sR-8GW" id="e0X-vb-YlL"/>
                 <outlet property="statusLabel" destination="Itk-rJ-bBi" id="iei-92-7uW"/>
-                <outlet property="submitGetInLine" destination="MXj-Ro-M8u" id="VjY-Ze-1yA"/>
                 <outlet property="videoHolder" destination="E4T-AZ-cSQ" id="78D-II-YjB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="KVy-ms-5xK"/>
             </connections>
@@ -62,7 +58,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackImg" translatesAutoresizingMaskIntoConstraints="NO" id="3OI-XM-flL">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-graphic.png" translatesAutoresizingMaskIntoConstraints="NO" id="3OI-XM-flL">
                     <rect key="frame" x="0.0" y="60" width="600" height="540"/>
                     <animations/>
                 </imageView>
@@ -73,25 +69,25 @@
                             <rect key="frame" x="0.0" y="86" width="600" height="338"/>
                             <subviews>
                                 <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Vg-Tc-XbD">
-                                    <rect key="frame" x="3" y="-59" width="39" height="6"/>
+                                    <rect key="frame" x="20" y="-96" width="13" height="19"/>
                                     <animations/>
                                     <color key="backgroundColor" red="0.89411764709999997" green="0.77405313538108378" blue="0.35816783283675163" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </view>
                                 <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0K-yn-m3H">
-                                    <rect key="frame" x="-78" y="33" width="81" height="67"/>
+                                    <rect key="frame" x="12" y="-11" width="96" height="13"/>
                                     <animations/>
                                     <color key="backgroundColor" red="0.1176470588" green="0.56078431370000004" blue="0.89411764709999997" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </view>
                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dI5-P0-OBa">
-                                    <rect key="frame" x="-65" y="-7" width="71" height="8"/>
+                                    <rect key="frame" x="-47" y="17" width="8" height="57"/>
                                     <animations/>
                                     <color key="backgroundColor" red="0.67947684536599406" green="0.24223131624755406" blue="0.89411764709999997" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </view>
                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uS9-jv-Nux">
                                     <rect key="frame" x="200" y="24" width="200" height="200"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="zxB-cu-RQk">
-                                            <rect key="frame" x="83" y="80" width="34" height="120"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="zxB-cu-RQk">
+                                            <rect key="frame" x="83" y="80" width="35" height="120"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="60"/>
                                             <color key="textColor" red="0.96897396650000001" green="1" blue="0.96630337870000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -174,65 +170,6 @@
                                 <constraint firstItem="2eW-aR-FL2" firstAttribute="width" secondItem="65j-ak-aqS" secondAttribute="width" multiplier="1:4" id="lCX-AR-FgK"/>
                             </constraints>
                         </view>
-                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pie-Q4-ZSD">
-                            <rect key="frame" x="600" y="68" width="0.0" height="0.0"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter you name below." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqD-cd-5ro">
-                                    <rect key="frame" x="-600" y="-128" width="227" height="21"/>
-                                    <animations/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtA-GY-yeq">
-                                    <rect key="frame" x="-600" y="-128" width="30" height="30"/>
-                                    <animations/>
-                                    <state key="normal" title="X">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                    <connections>
-                                        <action selector="closePrompt:" destination="-1" eventType="touchUpInside" id="j01-1N-4hI"/>
-                                    </connections>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXj-Ro-M8u">
-                                    <rect key="frame" x="-600" y="-128" width="56" height="30"/>
-                                    <animations/>
-                                    <color key="backgroundColor" red="0.17230555249999999" green="0.6463330182" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <state key="normal" title="SUBMIT">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                    <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
-                                            <integer key="value" value="5"/>
-                                        </userDefinedRuntimeAttribute>
-                                    </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="doGetInLine:" destination="-1" eventType="touchUpInside" id="weL-Lf-HKB"/>
-                                    </connections>
-                                </button>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BZl-gp-w6B">
-                                    <rect key="frame" x="-600" y="-128" width="92" height="30"/>
-                                    <animations/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="done"/>
-                                </textField>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO THERE!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXc-CH-22x">
-                                    <rect key="frame" x="-600" y="-128" width="115" height="21"/>
-                                    <animations/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
-                            <animations/>
-                            <color key="backgroundColor" white="1" alpha="0.79000000000000004" colorSpace="calibratedWhite"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                    <integer key="value" value="5"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
-                        </view>
                     </subviews>
                     <animations/>
                     <color key="backgroundColor" red="0.96897396650000001" green="1" blue="0.96630337870000005" alpha="0.6176361908783784" colorSpace="calibratedRGB"/>
@@ -246,9 +183,6 @@
                         <constraint firstItem="fJu-a8-Zwd" firstAttribute="centerY" secondItem="E4T-AZ-cSQ" secondAttribute="centerY" id="w02-fo-fMq"/>
                     </constraints>
                     <variation key="default">
-                        <mask key="subviews">
-                            <exclude reference="Pie-Q4-ZSD"/>
-                        </mask>
                         <mask key="constraints">
                             <exclude reference="OAR-NX-xD1"/>
                         </mask>
@@ -257,8 +191,8 @@
                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LTX-cC-jKo">
                     <rect key="frame" x="0.0" y="90" width="600" height="30"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are backstage." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="7t4-cZ-Lbj">
-                            <rect key="frame" x="0.0" y="5" width="600" height="21"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are backstage." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="7t4-cZ-Lbj">
+                            <rect key="frame" x="0.0" y="4" width="600" height="22"/>
                             <animations/>
                             <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                             <color key="textColor" red="0.96897396650000001" green="1" blue="0.96630337870000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -289,7 +223,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="19"/>
                     <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
-                    <state key="normal" backgroundImage="ChatImage">
+                    <state key="normal" backgroundImage="icon-bubble.png">
                         <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" red="0.8115671834" green="0.8115671834" blue="0.8115671834" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
@@ -311,8 +245,8 @@
                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PzH-nh-WWa">
                     <rect key="frame" x="0.0" y="90" width="600" height="50"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Chat with Producer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpj-IU-e8S">
-                            <rect key="frame" x="227" y="15" width="147" height="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat with Producer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpj-IU-e8S">
+                            <rect key="frame" x="216" y="15" width="168" height="21"/>
                             <animations/>
                             <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
                             <color key="textColor" red="0.2627450980392157" green="0.31372549019607843" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
@@ -327,7 +261,7 @@
                             <color key="backgroundColor" red="0.89411764705882357" green="0.89411764705882357" blue="0.89411764705882357" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
-                            <state key="normal" image="IconBack">
+                            <state key="normal" image="BackArrow-1.png">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="titleShadowColor" red="0.96897396650000001" green="1" blue="0.96630337870000005" alpha="0.0" colorSpace="calibratedRGB"/>
                             </state>
@@ -356,8 +290,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrU-sR-8GW">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
                     <subviews>
-                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Event Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="HMb-Rp-gdV">
-                            <rect key="frame" x="56" y="35" width="104" height="23"/>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="HMb-Rp-gdV">
+                            <rect key="frame" x="56" y="34" width="118" height="24"/>
                             <animations/>
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="19"/>
@@ -429,7 +363,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgu-Fc-pWM">
-                            <rect key="frame" x="17" y="35" width="31" height="26"/>
+                            <rect key="frame" x="17" y="34" width="31" height="26"/>
                             <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="31" id="89K-Tt-BSU"/>
@@ -560,8 +494,8 @@
         </view>
     </objects>
     <resources>
-        <image name="BackImg" width="445" height="115"/>
-        <image name="ChatImage" width="56" height="56"/>
-        <image name="IconBack" width="69" height="100"/>
+        <image name="BackArrow-1.png" width="69" height="100"/>
+        <image name="bg-graphic.png" width="890" height="230"/>
+        <image name="icon-bubble.png" width="56" height="56"/>
     </resources>
 </document>
