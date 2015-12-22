@@ -6,10 +6,10 @@ s.description      = "Plugin to be used for spotlight on ios"
 
 s.homepage         = "https://github.com/andreaphillips/ots"
 s.license          = 'MIT'
-s.author           = { "andreaphillips" => "andrea@agilityfeat.com" }
-s.source           = { :git => "https://github.com/andreaphillips/ots.git" }
+s.author           = { "opentok" => "andrea@agilityfeat.com" }
+s.source           = { :git => "https://github.com/opentok/spotlight-ios" }
 
-s.platform     = :ios, '7.0'
+s.platform     = :ios, '8.0'
 s.requires_arc = true
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
